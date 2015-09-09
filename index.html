@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>2015-MPIK-Workshop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Python for gamma-ray astronomy</h1>
+      <h2 class="project-tagline">A workshop at MPIK Heidelberg, November 16 - 20, 2015</h2>
+      <a href="#about" class="btn">About</a>
+      <a href="#sessions" class="btn">Sessions</a>
+      <a href="#join" class="btn">Join</a>
+      <a href="#participants" class="btn">Participants</a>
+    </section>
+
+    <section class="main-content">
+
+        <h3>
+            <a id="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>
+            About
+        </h3>
+        <p>
+            We are holding a week-long (November 16 - 20, 2015) workshop on Python
+            for gamma-ray astronomy at <a href=http://www.mpi-hd.mpg.de/mpi/en/start/>MPIK Heidelberg</a>.
+        </p>
+        <p>
+            Why focus on <a href="https://www.python.org/">Python</a>?
+        </p>
+        <p>
+            Python has become the most popular programming language in astronomy
+            (see <a href="http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2015arXiv150703989M/">"Software Use in Astronomy: an Informal Survey"</a>).
+            <br>
+            This is also the case in gamma-ray astronomy, where most open-source analysis codes are Python-based
+            or have a Python interface (e.g.
+            <a href="https://gammapy.readthedocs.org/en/latest/">Gammapy</a>,
+            <a href="http://naima.readthedocs.org/en/latest/">Naima</a>,
+            <a href="http://cta.irap.omp.eu/gammalib-devel/">Gammalib</a>,
+            <a href="http://cta.irap.omp.eu/ctools-devel/">ctools</a>,
+            <a href="https://threeml.stanford.edu/">3ML</a>,
+            <a href="https://github.com/fermiPy/fermipy">FermiPy</a>,
+            <a href="https://github.com/woodmd/gammatools">gammatools</a>,
+            <a href="https://github.com/kialio/VHEObserverTools">VHEObserverTools</a>,
+            <a href="https://github.com/cta-observatory/ctapipe">ctapipe</a>,
+            <a href="http://cxc.cfa.harvard.edu/sherpa/">Sherpa</a>
+            ).
+            <br>
+            Python can serve as the glue that brings together data from various
+            gamma-ray telescopes (e.g.
+            <a href="http://fermi.gsfc.nasa.gov/">Fermi</a>,
+            <a href="http://www.mpi-hd.mpg.de/hfm/HESS/">H.E.S.S.</a>,
+            <a href="http://veritas.sao.arizona.edu/">VERITAS</a>,
+            <a href="https://magic.mpp.mpg.de/">MAGIC</a>,
+            <a href="http://www.hawc-observatory.org/">HAWC</a>,
+            <a href="www.cta-observatory.org">CTA</a>
+            ) as well as astrophysical modeling codes.
+
+        <p>
+            The goal is to grow the community of of developers of the various Python codes
+            and to improve the capabilities and interoperability of the available codes.
+            <br>
+            Users that want to start using the tools for science analysis, or
+            are interested to start collaborating on multi-mission analysis
+            are also very welcome!
+        </p>
+
+        <h3>
+            <a id="sessions" class="anchor" href="#sessions" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+            Sessions
+        </h3>
+        <p>
+            The following agenda is very preliminary.<br>
+            If you'd like to come and present something, please send an email
+            to <a href="mailto:Christoph.Deil@mpi-hd.mpg.de">Christoph Deil</a>.
+        </p>
+        <p>
+            We will start on Monday morning with a series of plenary presentations to give
+            everyone an overview of ongoing activities as well as the analysis methods and codes
+            that will be a topic at this workshop.
+        </p>
+        <!-- <a>
+            
+            The format of this workshop will be modeled roughly on the
+            <a href="http://python-in-astronomy.github.io/2015/">Python in Astronomy workshop at the Lorentz center in April 2015</a>,
+            i.e. th
+            i.e. there will be some pre-scheduled presentations, tutorials and discussion sessions,
+            but most of the time is left free for participants to discuss and work on what they like
+            in small groups (a so-called <a href="https://en.wikipedia.org/wiki/Unconference">unconference</a>).
+        </p> -->
+
+        <p>            
+            <ul>
+                <li>Welcome (Jim Hinton)</li>
+                <li>Flash Introductions (1 minute for every participant)</li>
+                <li>Overview: <a href="https://www.cta-observatory.org/">CTA</a> (Catherine Boisson?)</li>
+                <li>Overview: <a href="http://fermi.gsfc.nasa.gov/">Fermi-LAT</a> (Mathew Wood or Jeremy Perkins?)</li>
+                <li>Overview: <a href="http://www.mpi-hd.mpg.de/hfm/HESS/">H.E.S.S.</a> (Christoph Deil)</li>
+                <li>Overview: <a href="http://veritas.sao.arizona.edu/">VERITAS</a>? (maybe, if we can fid a speaker)</li>
+                <li>Overview: <a href="http://www.hawc-observatory.org/">HAWC</a>? (maybe, if we can find a speaker)</li>
+                <li>Methods: 1D spectrum analysis in regions (like XSPEC) (Regis Terrier)</li>
+                <li>Methods: 2D image analysis in energy bands (Axel Donath)</li>
+                <li>Methods: 3D cube analysis for IACTs? (Peter Eger)</li>
+                <li>Methods: Bias in spectral likelihood estimators and observation grouping (Lea Jouvin)</li>
+                <!-- <li>Methods: stacking observations (IRF averaging) (tbd)</li> -->
+                <!-- <li>Methods: joint modeling of observations (add likelihoods) (tbd)</li> -->
+                <!-- <li>Methods: more presentations, e.g. on source detection, upper limits, sensitivity, event classes, ... if we can find speakers</li> -->
+                <li>Software: <a href="http://www.scipy.org/">Scientific Python</a> (Karl Kosack)</li>
+                <!-- <li>Software: <a href="http://www.astropy.org/">Astropy</a>? (TBC: Tom Robitaille or Christoph Deil?)</li> -->
+                <!-- <li>Software: <a href="http://cxc.cfa.harvard.edu/sherpa/">Sherpa</a> (Aneta?)</li> -->
+                <li>Software: <a href="https://github.com/cta-observatory/ctapipe">ctapipe</a> (Karl Kosack)</li>
+                <li>Software: <a href="https://github.com/gammapy/gammapy">Gammapy</a> (Christoph Deil)</li>
+                <li>Software: <a href="http://naima.readthedocs.org/en/latest/">Naima</a> (Victor Zabalza)</li>
+                <li>Software: <a href="http://cta.irap.omp.eu/gammalib-devel/">Gammalib</a> and <a href="http://cta.irap.omp.eu/ctools-devel/">ctools</a>? (maybe, if we can find a speaker)</li>
+                <li>Software: <a href="https://threeml.stanford.edu/">3ML</a> (Luigi Tibaldo)</li>
+                <!-- <li>Software: <a href="http://voparis-cta-client.obspm.fr/home">Online gamma-ray analysis</a>? (ask Mathieu)</li> -->
+                <li>... suggestions and contributions welcome! ...</li>
+            </ul>
+            
+            On Monday we'll end with a few plenary discussion sessions:
+            
+            <ul>
+                <li>Science goals (e.g. multi-mission analysis)</li>
+                <li>Technical goals (e.g. better analysis methods, checks, common data formats)</li>
+                <li>What can we achieve at the workshop?<br>What do you want to work on?</li>
+            </ul>
+        </p>
+        <p>
+            The rest of the week (Tuesday to Friday) will be largely a free-form hands-on work meeting.
+            We expect participants to form small groups to discuss and work on what they like.
+            To make this effective, we will have a board where everyone meets in the morning and
+            after lunch (for ~ 15 minutes) to propose sessions that every participant can join.
+            Every evening we'll again all meet to have a 5-minute summary of each session.
+        </p>
+            For users and new people that want to become contributors, we'll
+            offer a series of tutorials:            
+            <ul>
+                <li>How to contribute to open source projects (looking for a presenter)<br>(git, Github, "my first pull request", ...)</li>
+                <li>Python programming (looking for a presenter)<br>Modules, functions, classes, ... </li>
+                <li>Python tools (Christoph Deil)<br>IPython, Jupyter, PyCharm, pytest, Sphinx, pep8, prospector</li>
+                <li>Scientific Python programming (looking for a presenter)<br>Numpy, Scipy, matplotlib</li>
+                <li>Python C extensions and profiling (looking for a presenter)<br>SWIG, Cython, ctypes?, cffi?, Numba?, ... </li>
+                <!-- <li><a href="http://cxc.cfa.harvard.edu/sherpa/">Sherpa</a> architecture / code in depth (tbd)</li> -->
+                <li>Fermi-LAT data analysis (looking for a presenter)<br>ScienceTools, fermipy?, ...</li>
+                <li>Morphology and spectrum analysis with Gammapy (Axel Donath and Johannes King?)</li>
+                <li>SED modeling with Naima (Victor Zabalza)</li>
+                <li>Low-level gamma-ray analysis with ctapipe (Karl Kosack)</li>
+                <li> ... suggestions and contributions welcome! ... </li>
+            </ul>
+        </p>
+        <!-- <p>
+            Discussion / coding / analysis sessions:
+            
+            <ol>
+                <li>Discussion: Establishing common data formats for better tool inter-operability</li>
+                <li>Discussion/coding: 3D cube analysis in Gammapy</li>
+                <li>Discussion/coding: Region-based analysis in Gammapy</li>
+                <li>Discussion/coding: Simulating the gamma-ray sky -- Towards a CTA science challenge?</li>
+                <li>Discussion/coding: How to group observations for speed and to avoid spectral bias? (similar IRFs)</li>
+                <li>Discussion/analysis: Try to get the first combined Fermi/IACT/HAWC analysis going?</li>
+                <li> ... these are just some first ideas ... proposals welcome!</li>
+            </ol>
+        </p> -->
+
+        The schedule for the week is that every day:
+        <ul>
+            <li>Start at 9:30 am (also on Monday), so that participants can take the 9 am bus from Bismarckplatz</li>
+            <li>First morning session 9:30 to 11 am, coffee break, second session 11:30 am to 12:30 am</li>
+            <li>Go to lunch together at 12:30 at EMBL (cost: 11 Euro)</li>
+            <li>First afternoon session 2 pm to 3:30 pm, coffee break, second session 4 pm to 5:30 pm</li>
+            <li>Plenary summary of the day 5:30 pm to 6 pm</li>
+            <li>Optional: meet at ~ 8 pm at Bismarckplatz and go for drinks / dinner together</li>
+        </ul>
+
+        A more detailed schedule, including info on workshop dinner and excursion, will be announced soon.
+
+        <!-- <table style="width:100%">
+            <tr>
+                <td></td>
+                <td>Monday</td>
+                <td>Tuesday</td>
+                <td>Wednesday</td>
+                <td>Thursday</td>
+                <td>Friday</td>
+            </tr>
+            <tr>
+                <td>9:30 - 11:00</td>
+                <td>Presentations</td>
+                <td>Tutorials</td>
+                <td>Tutorials</td>
+                <td>Tutorials</td>
+                <td>Tutorials</td>
+            </tr>
+            <tr>
+                <td>11:30 - 12:30</td>
+                <td>Presentations</td>
+                <td>Tutorials</td>
+                <td>Tutorials</td>
+                <td>Tutorials</td>
+                <td>Tutorials</td>
+            </tr>
+            <tr>
+                <td>14:00 - 15:30</td>
+                <td>Presentations</td>
+                <td>Presentations</td>
+            </tr>
+            <tr>
+                <td>16:00 - 17:30</td>
+                <td>Discussions</td>
+                <td>Presentations</td>
+            </tr>
+            <tr>
+                <td>17:30 - 18:00</td>
+                <td>Discussions</td>
+                <td>Group</td>
+                <td>Group</td>
+                <td>Group</td>
+                <td>Group</td>
+            </tr>
+        </table> -->
+
+        <h3>
+            <a id="join" class="anchor" href="#join" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+            Join
+        </h3>
+        <p>
+            Anyone is welcome to join the workshop. There is no registration fee.<br>
+            Participants are expected to pay for travel and hotel themselves.<br>
+            If you have any questions or would like ot register, please send an email to <a href="mailto:Christoph.Deil@mpi-hd.mpg.de">Christoph Deil</a>.
+        </p>
+        <p>
+            There is the option to stay at the MPIK guest house (35 euro per night). 
+            The guest house is at the MPIK campus which is located on a hill outside of Heidelberg. 
+            The number of available rooms there is quite limited and in case you want to stay there, 
+            please contact me (email below) as soon as possible.
+            From the MPIK the Bus downtown takes about 15 minutes. 
+            In case you want to stay downtown we suggest to look for hotels close to Bismarckplatz, where also the busses to the MPIK leave. 
+            Please contact <a href="mailto:Peter.Eger@mpi-hd.mpg.de">Peter Eger</a>
+            if you'd like to book a room at the MPIK guest house or if you have
+            any questions concerning accomodation.
+            
+            Here is a link to <a href="https://www.google.de/maps/dir/Max-Planck-Institut+f.+Kernphysik,+Saupfercheckweg+1,+69117+Heidelberg/Bismarckplatz,+Heidelberg/@49.3961386,8.6922499,14z/data=!4m13!4m12!1m5!1m1!1s0x4797c05ed0bff2df:0x278a1dd9700fcbf7!2m2!1d8.70952!2d49.38803!1m5!1m1!1s0x4797c11c1d38e6d1:0xb1a54ec7f1402be7!2m2!1d8.6931145!2d49.4096085">google maps</a> showing the route from the MPIK to Bismarckplatz.
+        </p>
+        <p>
+            If you're new to <a href="https://www.python.org/">Python</a>,
+            we recommend that you spend some time to learn it before the workshop
+            in the context of scientific computing and Astronomy.<br>    
+            <ul>
+                <li>
+                    The <a href="https://scipy-lectures.github.io/">Python Scientific Lecture Notes</a>
+                    are a good tutorial to learn about 
+                    <a href="http://www.numpy.org/">Numpy</a>,
+                    <a href="http://docs.scipy.org/doc/scipy-0.16.0/reference/">Scipy</a>
+                    and <a href="http://matplotlib.org/">Matplotlib</a>.
+                </li>
+                <li>
+                    The <a href="http://python4astronomers.github.io/">Practical Python for Astronomers</a>
+                    tutorials are a good resource to learn about <a href="http://www.astropy.org/">Astropy</a>
+                    and specifically the <a href="http://python4astronomers.github.io/fitting/fitting.html">Fitting and Modeling 1-D and 2-D Data</a> tutorial to get started with <a href="http://cxc.harvard.edu/sherpa/">Sherpa</a>.
+                </li>
+                <li>
+                    Since Python is very popular overall, and specifically in Astronomy, there's of course
+                    a ton of other free tutorials, books and resources available online, e.g.
+                    the <a href="http://www.astropython.org/">Python for Astronomers web site</a>
+                    or the <a href="http://www.astropy.org/astropy-tutorials/">Astropy tutorials</a>.
+                </li>
+                <li>
+                    If you don't have a scientific Python stack installed on your computer,
+                    try it out online at <a href="https://try.jupyter.org/">https://try.jupyter.org/</a>
+                    (this uses the <a href="https://jupyter.org/">Jupyter</a> notbook, formerly known as the 
+                    <a href="http://ipython.org/">IPython</a> notebook) and then to install it on your machine, we recommend <a href="http://continuum.io/downloads">Anaconda</a> as a free,
+                    cross-platform (Linux, Mac, Windows) scientific Python distribution.
+                </li>
+                <li>
+                    If you are completely new to Python, and have time, you can of course read a Python programming book
+                    (there's some free books listed <a href="http://www.fullstackpython.com/best-python-resources.html">here</a>).
+                    But it turns out that for effective scientific computing and data analysis,
+                    this isn't really needed, and some basic knowledge on functions, classes and modules
+                    can get you a long way!
+                </li>
+                <li>
+                    Gamma-ray astronomy specific tutorials will be prepared for the workshop,
+                    although of course you can start learning about the existing codes using their normal documentation.
+                </li>
+            </ul>
+        </p>
+        <p>
+            If you're thinking about contributing to one of the open-source projects
+            discussed at this workshop, you should learn a bit about the
+            <a href="https://git-scm.com/">git</a> version control system
+            and code development on <a href="https://github.com/">Github</a>.
+            The <a href="https://help.github.com/categories/bootcamp/">Github bootcamp help page</a>
+            contains links to excellent tutorials and resources.
+        </p>
+
+        <h3>
+            <a id="participants" class="anchor" href="#participants"><span class="octicon octicon-link"></span></a>
+            Participants
+        </h3>
+        Preliminary list of participants:
+        <p>
+            <ol>
+                <li>Christoph Deil (MPIK, Heidelberg, Germany)</li>
+                <li>Axel Donath (MPIK, Heidelberg, Germany)</li>
+                <li>Peter Eger (MPIK, Heidelberg, Germany)</li>
+                <li>Johannes King (MPIK, Heidelberg, Germany)</li>
+                <li>Karl Kosack (CEA, Paris, France)</li>
+                <li>Luigi Tibaldo (MPIK, Heidelberg, Germany)</li>
+                <li>Regis Terrier (APC, Paris, France)</li>
+                <li>Lea Jouvin (APC, Paris, France)
+                <li>Victor Zabalza (Leicester, UK)</li>
+                <li>Catherine Boisson (Observatoire Paris/Meudon, France)</li>
+                <li>Vikas Joshi (MPIK, Heidelberg, Germany)</li>
+                <!-- <li>TBC: Mathieu Servillat (Observatoire Paris/Meudon, France)</li> -->
+                <!-- <li>TBC: Julien Lefaucheur (Observatoire Paris/Meudon, France)</li> -->
+                <!-- <li>TBC: Fabio Acero ()</li> -->
+                <!-- <li>TBC: Matthew Wood</li> -->
+                <!-- <li>TBC: Jeremy Perkins</li> -->
+            </ol>    
+        </p>
+          
+    </section>
+  </body>
+</html>
