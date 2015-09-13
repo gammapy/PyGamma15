@@ -31,10 +31,11 @@ though):
 
 Maybe these should be covered as well here or in some other tutorial?
 
-* [conda]
-* [pip]
-* [setup.py] build, install, develop, ...
-* debuggers
+* [pip](https://pip.pypa.io/en/latest/),
+  [virtualenv](https://virtualenv.pypa.io/en/latest/),
+  [setuptools](http://pythonhosted.org/setuptools/) - [Python packaging](https://packaging.python.org/en/latest/current.html)
+* [conda](http://conda.pydata.org/docs/) - Multi-platform package and environment management system
+* [debugging](http://scipy-lectures.github.io/advanced/debugging/)?
 
 ## How to prepare
 
