@@ -1,6 +1,7 @@
-# Tutorial - Python tools
+# Tutorial - Python developer tools
 
-* Presenter: Christoph Deil (@cdeil)
+* Presenter: [Christoph Deil](https://github.com/cdeil)
+* Duration: 90 min
 * Time: tbd
 * Location: Central seminar room
 
@@ -37,6 +38,13 @@ Maybe these should be covered as well here or in some other tutorial?
 * [conda](http://conda.pydata.org/docs/) - Multi-platform package and environment management system
 * [debugging](http://scipy-lectures.github.io/advanced/debugging/)?
 
+TODO: should we cover IPython here or in the `python-scientific` tutorial?
+
+Timing / profiling tools for Python performance analysis:
+
+* https://scipy-lectures.github.io/advanced/optimizing/index.html
+* http://www.huyng.com/posts/python-performance-analysis/
+
 ## How to prepare
 
 If you want to follow along during the tutorial and do the excercises,
@@ -49,3 +57,8 @@ it's working (if you see some help message, you're all set).
 ## Agenda
 
 TODO: describe what we'll do and make same small exercises
+
+## Going further
+
+TODO: give some suggestions / links what participants can do
+after the tutorial to learn more ...
