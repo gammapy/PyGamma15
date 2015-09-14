@@ -1,4 +1,4 @@
-# Tutorial - Low-level gamma-ray analysis with ctapipe
+# Tutorial - CTA Python pipeline
 
 * Presenter: Karl Kosack
 * Duration: 90 min
