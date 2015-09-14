@@ -1,7 +1,8 @@
 # Tutorial - How to contribute to open-source projects
 
 * Presenter: we're looking for a presenter ... please volunteer!
-* Time: tbd
+* Duration: 75 min
+* Time: Tuesday, 9:15 - 10:30
 * Location: Central seminar room
 
 ## Abstract

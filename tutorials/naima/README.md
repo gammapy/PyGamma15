@@ -2,7 +2,7 @@
 
 * Presenter: [Victor Zabalza](https://github.com/zblz)
 * Duration: 90 min
-* Time: tbd
+* Time: Thursday, 11:00 - 12:30
 * Location: Central seminar room
 
 ## Abstract

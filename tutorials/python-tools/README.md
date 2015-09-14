@@ -2,7 +2,7 @@
 
 * Presenter: [Christoph Deil](https://github.com/cdeil)
 * Duration: 90 min
-* Time: tbd
+* Time: Tuesday, 16:00 - 17:30
 * Location: Central seminar room
 
 ## Abstract

@@ -2,7 +2,7 @@
 
 * Presenter: [Axel Donath](https://github.com/adonath) and [Johannes King](https://github.com/kingj90)
 * Duration: 90 min
-* Time: tbd
+* Time: Tuesday, 11:00 - 12:30
 * Location: Central seminar room
 
 ## Abstract

@@ -2,7 +2,7 @@
 
 * Presenter: we're looking for a presenter ... please volunteer!
 * Duration: 90 min
-* Time: tbd
+* Time: Tuesday, 14:00 - 15:30
 * Location: Central seminar room
 
 ## Abstract
