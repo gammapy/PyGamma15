@@ -19,6 +19,7 @@ TODO: describe what we'll do and make same small exercises
 
 - Run analyses
 - Overview of the Naima code
+- How emcee works?
 
 ## Going further
 
