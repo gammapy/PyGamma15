@@ -1,7 +1,7 @@
 # Talk - 1D spectrum analysis in regions (like XSPEC)
 
 * Presenter: Regis Terrier
-* Duration: 10 + 5 min
+* Duration: 15 + 5 min
 
 ## Abstract
 
@@ -13,7 +13,7 @@ TODO: Summarize what is covered in bullet points
 (this is to help us assemble the program for the workshop)
 
 * ...
-* region-based analysis
+* region-based analysis (sky vs. pixel regions, reflected regions)
 * cash and wstat
 * file formats
 * methods to handle multiple observations:

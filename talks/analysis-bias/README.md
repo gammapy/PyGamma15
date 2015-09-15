@@ -13,7 +13,7 @@ TODO: Summarize what is covered in bullet points
 (this is to help us assemble the program for the workshop)
 
 * ...
-* What is bias?
+* What is bias? 
 * If possible: Super-simple analytic example why it can occur in likelihood estimators
 * When does it occur in spectral estimators? How large is it?
 * Observation grouping as one option to fix the bias -> why does it help?
