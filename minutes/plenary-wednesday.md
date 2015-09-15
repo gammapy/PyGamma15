@@ -1,4 +1,4 @@
-# Plenary summary session Tuesday
+# Plenary summary session Wednesday
 
 * Chair: tbd
 * Time: Tuesday, 5.30 pm -- 6 pm
