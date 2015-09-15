@@ -5,7 +5,16 @@
 
 ## Abstract
 
-tbd
+Currently Cherenkov telescope data is usually analysed by doing detection
+and morphology characterisation on 2D images, followed by spectral analysis
+using a 1D counts vector as a function of energy in a given sky region.
+
+A potentially better way to analyse the data is to use 3D cubes
+(with longitude, latitude and energy axis) and simultaneous morphology and
+spectral modeling as is common already for Fermi-LAT data.
+
+This talk will explain 3D analysis for Cherenkov telescopes and summarise
+the status and plan to implement this method in open-source analysis codes.
 
 ## Outline
 
@@ -14,11 +23,14 @@ tbd
 * Modelling the background
 * Spatially and energy-dependent instrument response
 * Binned vs. unbinned analysis
-* Already existing tools: [GammaLib](http://cta.irap.omp.eu/gammalib-devel/)
-  + [ctools](http://cta.irap.omp.eu/ctools-devel/)
-* Plan: Implementation in [gammapy](https://gammapy.readthedocs.org/en/latest/) + [sherpa](http://cxc.harvard.edu/sherpa4.4/)
+* Already implemented in [GammaLib](http://cta.irap.omp.eu/gammalib-devel/) and [ctools](http://cta.irap.omp.eu/ctools-devel/)
+* Plan to implement this in [Gammapy](https://gammapy.readthedocs.org/en/latest/) using [Sherpa](http://cxc.harvard.edu/sherpa/)
 
 
 ## References
 
-TODO: add some references to web pages or papers with further info
+These tutorials are examples what's involved in doing a 3D cube binned
+likelihood analysis:
+
+* http://fermi.gsfc.nasa.gov/ssc/data/analysis/scitools/binned_likelihood_tutorial.html
+* http://cta.irap.omp.eu/ctools/user_manual/getting_started/beyond_stacked.html
