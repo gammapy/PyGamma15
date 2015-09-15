@@ -9,20 +9,14 @@ tbd
 
 ## Outline
 
-TODO: Summarize what is covered in bullet points
-(this is to help us assemble the program for the workshop)
-
-* ...
-* Cube background modeling
-* Energy-dependent PSF
-* Spatial dependence of PSF and energy resolution
-* Joint likelihood fit or stacking of observations
+* Advantages over established analysis methods (1D + 2D) for IACTs
+* Differences and similarities to the Fermi-LAT analysis scheme
+* Modelling the background
+* Spatially and energy-dependent instrument response
 * Binned vs. unbinned analysis
-* Briefly explain what [GammaLib](http://cta.irap.omp.eu/gammalib-devel/)
-  and [ctools](http://cta.irap.omp.eu/ctools-devel/) are and how they work
-  (we don't have a separate presentation on this)
-* ...
-* Status and plans: suggestions what to work on this week
+* Already existing tools: [GammaLib](http://cta.irap.omp.eu/gammalib-devel/)
+  + [ctools](http://cta.irap.omp.eu/ctools-devel/)
+* Plan: Implementation in [gammapy](https://gammapy.readthedocs.org/en/latest/) + [sherpa](http://cxc.harvard.edu/sherpa4.4/)
 
 
 ## References
