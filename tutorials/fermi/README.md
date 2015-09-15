@@ -1,8 +1,8 @@
 # Tutorial - Fermi-LAT data analysis with FermiPy
 
-* Presenter: TBC: Matthew Wood
-* Duration: 90 min
-* Time: tbd
+* Presenter: TBC: Matthew Wood and / or Jeremy Perkins
+* Duration: 75 min
+* Time: Wednesday, 9:15 - 10:30
 * Location: Central seminar room
 
 ## Abstract
