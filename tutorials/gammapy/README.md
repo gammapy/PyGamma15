@@ -24,11 +24,11 @@ compare the result to the official 2FHL catalog.
 
 ## How to prepare
 
-Install Gammapy 0.4 and Sherpa 4.8 using Python 2.7 as described [here](https://gammapy.readthedocs.org/en/latest/install.html#id1).
+Install Gammapy 0.5 and Sherpa 4.7 (TODO: do we need the dev version?) using Python 2.7 as described [here](https://gammapy.readthedocs.org/en/latest/install.html#id1).
 
-TODO: do we need the dev version of Sherpa?
+Download example data: TODO
 
-TODO: write a Python script that checks if everything we need is installed and working.
+Run the `tutorial-setup-check.py` script (TODO: implement) to check if you have everything you need for the tutorial.
 
 ## Agenda
 
