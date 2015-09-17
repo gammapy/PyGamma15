@@ -1,6 +1,6 @@
 # Talk - Detection and parameter estimation in gamma-ray astronomy
 
-* Presenter: looking for a speaker
+* Presenter: [Michael Schmelling]()
 * Duration: 15 + 5 min
 
 ## Abstract
@@ -8,9 +8,10 @@
 Introduction to the most common frequentist and Bayesian methods for parameter
 estimation and signal detection in gamma-ray astronomy.
 
-TBD: follow-up with a tutorial using [emcee](http://dan.iel.fm/emcee/current/)
-and [iminuit](http://iminuit.readthedocs.org/en/latest/) or ROOT or something
-later that week?
+A more in-depth and hands-on [statistics
+tutorial](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/analysis-stats)
+on the same subject will be given later in the week.
+
 
 ## Outline
 
