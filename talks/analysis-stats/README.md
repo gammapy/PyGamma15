@@ -5,26 +5,38 @@
 
 ## Abstract
 
-Frequentist and Bayesian methods for parameter estimation and detection
+Introduction to the most common frequentist and Bayesian methods for parameter
+estimation and signal detection in gamma-ray astronomy.
+
+TBD: follow-up with a tutorial using [emcee](http://dan.iel.fm/emcee/current/)
+and [iminuit](http://iminuit.readthedocs.org/en/latest/) or ROOT or something
+later that week?
 
 ## Outline
 
-TODO: Summarize what is covered in bullet points
-(this is to help us assemble the program for the workshop)
+TBD: ... this is just a first suggestion ...
 
-* ...
-* Profile likelihood
-* Coverage
+* Likelihood
+* Nuisance parameters, profile likelihood
+* Confidence intervals, coverage
 * Explain TS and Wilk's theorem, Li & Ma
 * Explain how sensitivity and upper limits and parameter errors relate
 * Frequentist and Bayesian likelihood analysis; optimisation vs. sampling; parameter estimation and detection
-* Maybe something like this (http://adsabs.harvard.edu/abs/2014arXiv1411.5018V)
-  and follow up with a tutorial later in the week?
-* How to handle systematic errors in gamma-ray astronomy should probably a separate presentation,
-  but do we have time / a speaker?
-* ...
-* Status and plans of tools: suggestions what to work on this week
+* Methods to handle systematic errors for detection and parameter estimation
+* Suggestions what to work on this week?
 
 ## References
 
-TODO: add some references to web pages or papers with further info
+Theory:
+
+* [Li & Ma (1983) "Analysis methods for results in gamma-ray astronomy"](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/1983ApJ...272..317L/)
+* [Cash (1979) "Parameter estimation in astronomy through application of the likelihood ratio"](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/1979ApJ...228..939C/)
+* [Rolke et al. (2005) "Limits and confidence intervals in the presence of nuisance parameters"](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2005NIMPA.551..493R/)
+* [Cousins et al (2008) "Evaluation of three methods for calculating statistical significance when incorporating a systematic uncertainty into a test of the background-only hypothesis for a Poisson process"](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2008NIMPA.595..480C/)
+* [Spengler (2015) "Significance in gamma ray astronomy with systematic errors"](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2015APh....67...70S/)
+
+Practical, with Python implementation:
+
+* [Vanderplas (2014) "Frequentism and Bayesianism: A Python-driven Primer"](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2014arXiv1411.5018V/)
+* [Foreman-Mackey et al. (2013) "emcee: The MCMC Hammer"](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2013PASP..125..306F/)
+* [James (1980) "Interpretation of the shape of the likelihood function around its minimum"](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/1980CoPhC..20...29J/)
