@@ -5,20 +5,29 @@
 
 ## Abstract
 
-[3ML](https://threeml.stanford.edu)
+The Multi-Mission Maximum Likelihood
+[3ML](https://threeml.stanford.edu) project aims at providing a common
+framework for joint analysis of sources combining data from different
+instruments in a statistically consistent fashion. 3ML is based on the
+likelihood formalism, in which a model summarizing our knowledge about
+a particular region of the sky is convolved with the instrument
+response and compared to the relevant data. The innovative
+architecture of 3ML employs plugins to handle the instrument-specific
+part of the analysis based on the existing/official software for each
+instrument. 3ML provides a variety of models for the spectrum and
+morphology of the sources, and tools for likelihood analysis based on
+either likelihood optimization or Bayesian sampling.
 
 ## Outline
 
-TODO: Summarize what is covered in bullet points
-(this is to help us assemble the program for the workshop)
-
-* ...
-* Science cases - why multi-mission analyses?
-* Frequentist and Bayesian analysis?
-* 3ML software overview
-* ...
+* Motivations: why multi-mission analyses?
+* Approaches: instrument response deconvolution versus model forward folding
+* 3ML concept overview (plugins, models, analysis)
+* frequentist versus Bayesian analysis 
+* status of the 3ML software
+* demo: analysis of a point source with Fermi and ...
 * What can we work on this week?
 
 ## References
 
-TODO: add some references to web pages or papers with further info
+For more information see the [ICRC 2015 proceedings](http://arxiv.org/abs/1507.08343)
