@@ -1,9 +1,7 @@
 # Talk - Gammapy
 
-* Presenter: Christoph Deil
+* Presenter: [Christoph Deil](https://github.com/cdeil/)
 * Duration: 12 + 3 min
-
-<img src="https://avatars2.githubusercontent.com/u/852409?v=3&s=460" height="200">
 
 ## Abstract
 

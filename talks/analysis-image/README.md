@@ -1,6 +1,6 @@
 # Talk - 2D image analysis in energy bands
 
-* Presenter: Axel Donath
+* Presenter: [Axel Donath](https://github.com/adonath)
 * Duration: 12 + 3 min
 
 ## Abstract

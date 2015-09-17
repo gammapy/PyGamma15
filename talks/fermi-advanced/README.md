@@ -1,6 +1,6 @@
 # Talk - Fermi-LAT advanced
 
-* Presenter: Matthew Wood
+* Presenter: TBC: [Matthew Wood](https://github.com/woodmd/)
 * Duration: 12 + 3 min
 
 ## Abstract

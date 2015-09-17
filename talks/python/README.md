@@ -1,6 +1,6 @@
 # Talk - Why Python for gamma-ray astronomy?
 
-* Presenter: Karl Kosack
+* Presenter: [Karl Kosack](https://github.com/kosack/)
 * Duration: 12 + 3 min
 
 ## Abstract

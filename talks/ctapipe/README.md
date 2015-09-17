@@ -1,9 +1,7 @@
 # Talk - CTA Python pipeline
 
-* Presenter: Karl Kosack
+* Presenter: [Karl Kosack](https://github.com/kosack)
 * Duration: 12 + 3 min
-
-<img src="http://irfu.cea.fr/Pisp/karl.ck/kosack.jpg" height="200">
 
 ## Abstract
 

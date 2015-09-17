@@ -1,6 +1,6 @@
 # Talk - Bias in spectral likelihood estimators and observation grouping
 
-* Presenter: Lea Jouvin
+* Presenter: [Lea Jouvin](https://github.com/JouvinLea)
 * Duration: 12 + 3 min
 
 ## Abstract

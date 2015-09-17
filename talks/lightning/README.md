@@ -1,6 +1,6 @@
 # Lightning talk session
 
-* Chair: TBC: Fabio Acero
+* Chair: TBC: [Fabio Acero]()
 * Friday, 9:15 -- 11:00
 
 ## What is this?

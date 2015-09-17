@@ -2,7 +2,7 @@
 
 ## Basic workshop info
 
-* Presenter: Christoph Deil
+* Presenter: [Christoph Deil](https://github.com/cdeil/)
 * Duration: 20 min
 
 * Why did we organise this this workshop?

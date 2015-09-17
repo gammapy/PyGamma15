@@ -1,6 +1,6 @@
 # Talk - 1D spectrum analysis in regions (like XSPEC)
 
-* Presenter: Regis Terrier
+* Presenter: [Regis Terrier](https://github.com/registerrier)
 * Duration: 15 + 5 min
 
 ## Abstract
