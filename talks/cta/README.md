@@ -1,6 +1,6 @@
 # Talk - CTA data
 
-* Presenter: TBC: Catherine Boisson
+* Presenter: Catherine Boisson
 * Duration: 15 + 5 min
 
 ## Abstract

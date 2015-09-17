@@ -1,6 +1,6 @@
 # Talk - VERITAS data analysis with open source tools
 
-* Presenter: TBC: Nathan Kelley-Hoskins
+* Presenter: [Nathan Kelley-Hoskins](https://github.com/nkelhos)
 * Duration: 12 + 3 min
 
 ## Abstract
