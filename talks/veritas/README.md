@@ -1,7 +1,7 @@
 # Talk - VERITAS data analysis with open source tools
 
 * Presenter: Nathan Kelley-Hoskins
-* Duration: 10 + 5 min
+* Duration: 12 + 3 min
 
 ## Abstract
 

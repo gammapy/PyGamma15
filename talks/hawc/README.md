@@ -1,7 +1,7 @@
 # Talk - HAWC data analysis
 
 * Presenter: ... looking for a speaker ...
-* Duration: 10 + 5 min
+* Duration: 12 + 3 min
 
 ## Abstract
 

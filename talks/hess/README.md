@@ -1,7 +1,7 @@
 # Talk - H.E.S.S. data analysis with open source tools
 
 * Presenter: Christoph Deil
-* Duration: 10 + 5 min
+* Duration: 12 + 3 min
 
 ## Abstract
 
