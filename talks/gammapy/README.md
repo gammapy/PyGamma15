@@ -3,6 +3,8 @@
 * Presenter: Christoph Deil
 * Duration: 12 + 3 min
 
+<img src="https://avatars2.githubusercontent.com/u/852409?v=3&s=460" height="200">
+
 ## Abstract
 
 [Gammapy](https://gammapy.readthedocs.org/en/latest/index.html)

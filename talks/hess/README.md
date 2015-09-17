@@ -3,6 +3,8 @@
 * Presenter: Christoph Deil
 * Duration: 12 + 3 min
 
+<img src="https://avatars2.githubusercontent.com/u/852409?v=3&s=460" height="200">
+
 ## Abstract
 
 [H.E.S.S.](http://www.mpi-hd.mpg.de/hfm/HESS/) is an array of

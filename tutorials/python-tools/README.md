@@ -5,6 +5,8 @@
 * Time: Tuesday, 16:00 - 17:30
 * Location: Central seminar room
 
+<img src="https://avatars2.githubusercontent.com/u/852409?v=3&s=460" height="200">
+
 ## Abstract
 
 This tutorial will briefly introduce you to a bunch of tools that can

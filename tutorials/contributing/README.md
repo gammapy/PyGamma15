@@ -1,6 +1,6 @@
 # Tutorial - Contributing to Python projects on Github
 
-* Presenter: we're looking for a presenter ... please volunteer!
+* Presenter: tbd
 * Duration: 75 min
 * Time: Tuesday, 9:15 - 10:30
 * Location: Central seminar room

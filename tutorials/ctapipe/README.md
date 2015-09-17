@@ -5,6 +5,8 @@
 * Time: Thursday, 9:15 - 10:30
 * Location: Central seminar room
 
+<img src="http://irfu.cea.fr/Pisp/karl.ck/kosack.jpg" height="200">
+
 ## Abstract
 
 This tutorial shows you have to get started with [ctapipe](https://github.com/cta-observatory/ctapipe).

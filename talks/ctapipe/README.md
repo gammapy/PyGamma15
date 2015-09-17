@@ -3,6 +3,8 @@
 * Presenter: Karl Kosack
 * Duration: 12 + 3 min
 
+<img src="http://irfu.cea.fr/Pisp/karl.ck/kosack.jpg" height="200">
+
 ## Abstract
 
 tbd

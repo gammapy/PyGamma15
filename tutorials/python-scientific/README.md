@@ -1,6 +1,6 @@
 # Tutorial - Scientific Python
 
-* Presenter: we're looking for a presenter ... please volunteer!
+* Presenter: tbd
 * Duration: 90 min
 * Time: Tuesday, 14:00 - 15:30
 * Location: Central seminar room
