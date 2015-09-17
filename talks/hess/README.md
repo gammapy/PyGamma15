@@ -30,6 +30,13 @@ In this talk, I plan to cover:
 
 ## References
 
+If you'd like to get a hands-on introduction to H.E.S.S. high-level
+data analysis, come to the [Gammapy](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/gammapy)
+and [Naima](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/naima) tutorials.
+If you'd like to do some low-level H.E.S.S. data analysis (shower images),
+join the [ctapipe](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/ctapipe)
+tutorial.
+
 There's no good quick overview of IACT data analysis that I'm aware of.
 (I'm hoping the slides of this presentation will achieve that.)
 
