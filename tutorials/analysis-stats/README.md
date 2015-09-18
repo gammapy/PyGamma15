@@ -8,7 +8,7 @@
 ## Abstract
 
 This tutorial will cover the material presented at the [statistics
-talk](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/analysis-stats)
+talk](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/analysis-stats)
 on Monday, going over the theoretical concepts and computational methods again
 in more detail, and a series of examples and excercises.
 
