@@ -9,6 +9,13 @@
 
 This tutorial shows you have to get started with [ctapipe](https://github.com/cta-observatory/ctapipe).
 
+## How to prepare
+
+TODO: install ctapipe, download example data
+... how to check if everything is OK?
+
+## Agenda
+
 Some topics (subject to change):
 
 - setting up the package
@@ -22,15 +29,6 @@ Some topics (subject to change):
    * fitting
    * gamma-hadron separation
    * speed optimization
-
-## How to prepare
-
-TODO: install ctapipe, download example data
-... how to check if everything is OK?
-
-## Agenda
-
-TODO
 
 ## Going further
 
