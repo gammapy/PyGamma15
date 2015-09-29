@@ -1,6 +1,6 @@
 # Talk - Astropy
 
-* Presenter: TBC: [Tom Robitaille](https://github.com/astrofrog)
+* Presenter: tbd
 * Duration: 12 + 3 min
 
 ## Abstract
