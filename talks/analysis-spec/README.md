@@ -1,4 +1,4 @@
-# Talk - 1D spectrum analysis in regions (like XSPEC)
+# Talk - 1D spectrum analysis in regions
 
 * Presenter: [Regis Terrier](https://github.com/registerrier)
 * Duration: 15 + 5 min
@@ -9,7 +9,7 @@ The issues and methods of spectral analysis are very similar in different
 domains of high energy astrophysics. In particular, analyses of X-ray and VHE
 gamma-rays spectra share many characteristics: forward-folding methods,  Poisson
 signal and background etc. Extensive software packages have been developed for
-X-rays astrophysics (e.g. XPSEC, Sherpa)  which can provide effective tools for
+X-rays astrophysics (e.g. XSPEC, Sherpa)  which can provide effective tools for
 spectral analysis of VHE data. We will discuss how this can be practically
 done. We will review the specificities of VHE spectral analysis (signal to noise
 level,  multiple observations, background estimation, profile likelihood methods
