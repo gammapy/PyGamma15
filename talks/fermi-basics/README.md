@@ -5,22 +5,23 @@
 
 ## Abstract
 
-tbd
+This talk will give an introduction to [Fermi](http://fermi.gsfc.nasa.gov/)-LAT data analysis
+with a focus on technical details about the files and data model, i.e. information
+that's not necessarily needed for end-users, but is important to know for advanced users
+or developers that want to know how it works "under the hood".
 
-http://fermi.gsfc.nasa.gov/
+The [Fermi-LAT advanced](https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/fermi-advanced)
+presentation will focus on Pass 8 and event classes, and the
+[Fermi-LAT data analysis tutorial](https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/fermi)
+later in the week will give a hands-on introduction.
 
 ## Outline
 
-TODO: Summarize what is covered in bullet points
-(this is to help us assemble the program for the workshop)
-
-* ...
-* Fermi telescope
-* Fermi data and IRFs
-* ScienceTools analysis
+* Content and format of the various files (event list, IRFs, ScienceTools outputs)
+* Science tools analysis chain and how e.g. data selection cuts is communicated between tools
 * ScienceTools Python interface
-* ...
 
 ## References
 
-TODO: add some references to web pages or papers with further info
+* [Fermi](http://fermi.gsfc.nasa.gov/)
+* [Fermi likelihood analysis with Python tutorial](http://fermi.gsfc.nasa.gov/ssc/data/analysis/scitools/python_tutorial.html)

@@ -5,26 +5,21 @@
 
 ## Abstract
 
-tbd
+This talk will build on the previous
+[Fermi-LAT basics](https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/fermi-basics)
+presentation and cover [Pass 8](http://fermi.gsfc.nasa.gov/ssc/data/analysis/documentation/Pass8_usage.html)
+analyses in detail, with a focus on how the event classes are implemented in the
+data files, Fermi Science Tools and in the [FermiPy](https://github.com/fermiPy/fermipy)
+Python scripts.
 
-[FermiPy](https://github.com/fermiPy/fermipy)
-
+The [Fermi-LAT data analysis tutorial](https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/fermi)
+later in the week will give a hands-on introduction to Fermi Pass 8 analysis.
 
 ## Outline
 
-TODO: Summarize what is covered in bullet points
-(this is to help us assemble the program for the workshop)
-
-* ...
-* Fermi Pass 8 analysis
-* Focus on event classes, explain how they are handled in
-  the data formats and software
-  -> this will be very useful for IACTSs because we want to
-  implement event classes as well for HESS 1 / 2 or CTA.
-* High-level overview FermiPy
-* ...
-* 
+To be defined ...
 
 ## References
 
-TODO: add some references to web pages or papers with further info
+* [Fermi Pass 8](http://fermi.gsfc.nasa.gov/ssc/data/analysis/documentation/Pass8_usage.html)
+* [FermiPy](http://fermipy.readthedocs.org/en/latest/)
