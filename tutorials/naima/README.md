@@ -13,6 +13,8 @@ TODO
 
 TODO: Install naima and make sure that command X runs.
 
+* Go over the slides from the [SED modeling with Naima talk](https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/naima) from Monday.
+
 ## Agenda
 
 TODO: describe what we'll do and make same small exercises

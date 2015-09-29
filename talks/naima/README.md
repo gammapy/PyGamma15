@@ -10,14 +10,13 @@
 ## Outline
 
 * ...
-* Flux points -> chi^2 fit statistic?
-* Intro to MCMC fitting and emcee?
-  (many participants probably only know MINUIT-style fitting)
-* Radiation models math?
+* Radiation models theory
 * High-level overview of Naima
 * ...
 * What can we work on this week?
 
 ## References
 
-* TODO: Reference tutorial later that week
+* [Zabalza (2015), "naima: a Python package for inference of relativistic particle energy distributions from observed nonthermal spectra"](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2015arXiv150903319Z/)
+* MCMC sampling with emcee was covered in the stats talk and tutorial by Michal Schmelling.
+* [Naima tutorial later in the week](https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/naima)
