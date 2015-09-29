@@ -1,7 +1,7 @@
 # Talk - Fermi-LAT basics
 
-* Presenter: TBC: [Jeremy Perkins](https://github.com/kialio/)
-* Duration: 12 + 3 min
+* Presenter: [Jeremy Perkins](https://github.com/kialio/)
+* Duration: 15 + 5 min
 
 ## Abstract
 
