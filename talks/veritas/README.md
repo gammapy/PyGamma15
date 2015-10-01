@@ -1,4 +1,4 @@
-# Talk - VERITAS data analysis with open source tools
+# Talk - VERITAS Data Analyses Progress with Gammalib/CTOOLS
 
 * Presenter: [Nathan Kelley-Hoskins](https://github.com/nkelhos)
 * Duration: 15 + 5 min
