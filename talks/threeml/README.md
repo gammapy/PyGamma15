@@ -1,7 +1,7 @@
 # Talk - Multi-mission maximum likelihood analysis with 3ML
 
 * Presenter: [Luigi Tibaldo](https://github.com/tibaldo)
-* Duration: 12 + 3 min
+* Duration: 20 + 5 min
 
 ## Abstract
 
