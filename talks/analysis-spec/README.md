@@ -25,6 +25,14 @@ etc) and show how this can be implemented.
   * Joint modeling of observations (add likelihoods)
 * Status and plans of tools: suggestions what to work on this week
 
+* ...
+* pixel vs sky coordinates, WCS
+* model rasterisation effects
+* HGPS experience (region selection, fit convergence, parameter error estimation)
+* ...
+* Status and plans: suggestions what to work on this week
+
+
 ## References
 
 * [OGIP format description](https://heasarc.gsfc.nasa.gov/docs/heasarc/ofwg/docs/spectra/ogip_92_007/node5.html)

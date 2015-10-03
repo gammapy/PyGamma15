@@ -1,4 +1,4 @@
-# Talk - CTA data
+# Talk - CTA DATA overview
 
 * Presenter: Catherine Boisson
 * Duration: 15 + 5 min
@@ -18,16 +18,16 @@ explained.
 
 ## Outline
 
-TODO: Summarize what is covered in bullet points
-(this is to help us assemble the program for the workshop)
+Just some first ideas for now ... to be confirmed:
 
 * ...
-* CTA event list and IRF format specification status / timeline
-* DL3 and higher data formats
-* Describe how data will be distributed?
-* ...
+* CTA data management (data levels, models, flow, rates)
+* CTA observer access (guest observers, archive, data and science tools)
+* Focus: CTA DL3 event list and IRF data model and format specification
+* Status, timeline for CTA DATA activities (requirements, specifications, implementations)... how to join? upcoming meetings?
+* Maybe: Which parts of CTA software (pipeline and science tools) will be open source? Which license? Python?
+* Maybe: A second CTA "data challenge" or "science challenge" in 2016?
 * What can we work on this week?
-
 
 ## References
 

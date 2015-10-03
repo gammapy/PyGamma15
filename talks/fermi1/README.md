@@ -5,11 +5,10 @@
 
 ## Abstract
 
-This talk will give an introduction to [Fermi](http://fermi.gsfc.nasa.gov/)-LAT
-data analysis with a focus on technical details about the files and data model,
-i.e. information that's not necessarily needed for end-users, but is important
-to know for advanced users or developers that want to know how it works "under
-the hood".
+This talk will give an introduction to Fermi-LAT data analysis with a focus on
+technical details about the files and data model, i.e. information that's not
+necessarily needed for end-users, but is important to know for advanced users or
+developers that want to know how it works "under the hood".
 
 ## Outline
 
