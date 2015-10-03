@@ -1,6 +1,6 @@
 # Lightning talk session
 
-* Chair: TBC: [Fabio Acero]()
+* Chair: [tbd]()
 * Friday, 9:15 -- 11:00
 
 ## What is this?
@@ -13,7 +13,7 @@ Wikipedia defines [lightning talk](https://en.wikipedia.org/wiki/Lightning_talk)
 > in a single session, sometimes called a data blitz.
 
 In this session, every participant can give a 5-minute talk on anything
-related to the workshop theme.
+related to the workshop theme (Python, gamma-ray astronomy)
 
 Just as examples, you could talk about or demo a Python package you think
 people should know about. Or talk about how you've used Python to implement
@@ -23,8 +23,8 @@ coming weeks / months and you're looking for someone to do it with you?
 ## Sign up
 
 Please talk to or email the session chair on Thursday evening latest ...
-all that's needed beforehand is a title for your lightling talk.
+all that's needed beforehand is a title for your lightning talk.
 
 ## Talks
 
-* Name, title, link to slides if you want
+* Name, topic
