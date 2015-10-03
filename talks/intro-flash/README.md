@@ -1,5 +1,10 @@
 # Flash introductions
 
+* Chair: [Peter Eger](https://github.com/peger089)
+* Duration: 40 min
+
+## Abstract
+
 Since we want to make sure everyone has a chance to introduce themselves at the
 workshop, we will have a session on the first day where everyone will have up to
 one minute to say a few words about themselves (you don’t have to use up the
