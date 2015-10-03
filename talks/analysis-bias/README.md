@@ -56,3 +56,9 @@ Statistics reference:
 * [Cash W., 1979, ApJ, 228](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/1979ApJ...228..939C/)
 * Neyman J. and Scott E. L.,  1948, The Econometrica Society, 16
 * [Spanos A., 2013, ArXiv e-prints](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2013arXiv1301.0118S/)
+
+## See also
+
+* [Talk - H.E.S.S. data analysis with open source tools](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/hess)
+* [Talk - Statistics for gamma-ray astronomy](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/analysis-stats)
+* [Talk - Classical Cherenkov telescope data analysis](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/analysis-classical)

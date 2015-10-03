@@ -40,8 +40,6 @@ is often cited as an overview of H.E.S.S. data analysis.
 It doesn't describe the high-level analysis part though, i.e.
 the morphology and spectral analysis techniques that are used for H.E.S.S.
 publications these days.
-* [Berge (2007)](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2007A%26A...466.1219B/)
-is a good reference on background modeling.
 
 ## See also
 
