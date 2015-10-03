@@ -5,15 +5,16 @@
 
 ## Abstract
 
-This talk will give an introduction to [Fermi](http://fermi.gsfc.nasa.gov/)-LAT data analysis
-with a focus on technical details about the files and data model, i.e. information
-that's not necessarily needed for end-users, but is important to know for advanced users
-or developers that want to know how it works "under the hood".
+This talk will give an introduction to [Fermi](http://fermi.gsfc.nasa.gov/)-LAT
+data analysis with a focus on technical details about the files and data model,
+i.e. information that's not necessarily needed for end-users, but is important
+to know for advanced users or developers that want to know how it works "under
+the hood".
 
 ## Outline
 
 * Content and format of the various files (event list, IRFs, ScienceTools outputs)
-* Science tools analysis chain and how e.g. data selection cuts is communicated between tools
+* Science tools analysis chain and how e.g. data selection cuts are communicated between tools
 * ScienceTools Python interface
 
 ## References

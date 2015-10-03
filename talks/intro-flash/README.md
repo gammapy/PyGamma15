@@ -5,6 +5,8 @@
 
 ## Abstract
 
+Every participant introduces themselves in 1 min max.
+
 Since we want to make sure everyone has a chance to introduce themselves at the
 workshop, we will have a session on the first day where everyone will have up to
 one minute to say a few words about themselves (you don’t have to use up the
