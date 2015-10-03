@@ -18,3 +18,5 @@ Scipy packages (Numpy, Scipy, Matplotlib, Numba) and tools (IPython, pytest, ...
 ## References
 
 * See tutorials on Tuesday
+
+* Rethinking the Gammapy stack: thoughts on how to collaborate more with other packages (Astropy, Astropy affiliated packages, Sherpa, Naima, ctapipe, Gammalib, ctools, 3ML, FermiPy, ...) to avoid duplication of effort and enable multi-mission analyses and astrophysical modeling.
