@@ -1,4 +1,4 @@
-# Talk - Detection and parameter estimation in gamma-ray astronomy
+# Talk - Statistics for gamma-ray astronomy
 
 * Presenter: [Michael Schmelling]()
 * Duration: 15 + 5 min
