@@ -1,6 +1,6 @@
 # Talk - H.E.S.S. data analysis with open source tools
 
-* Presenter: [Christoph Deil](https://github.com/cdeil)
+* Presenter: [Johannes King](https://github.com/kingj90)
 * Duration: 15 + 5 min
 
 ## Abstract
