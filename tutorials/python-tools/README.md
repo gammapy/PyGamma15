@@ -2,7 +2,7 @@
 
 * Presenter: [Christoph Deil](https://github.com/cdeil)
 * Duration: 90 min
-* Time: Tuesday, 16:00 - 17:30
+* Time: Tuesday, 14:00 - 15:30
 * Location: Central seminar room
 
 ## Abstract
@@ -20,8 +20,6 @@ to you.
 We plan to cover the following tools (deviations from this plan are possible
 though):
 
-* [IPython](http://ipython.org/) - Interactive computing in the terminal
-* [Jupyter notebook](http://jupyter-notebook.readthedocs.org/en/latest/) - Interactive computing in the web browser
 * [pytest](http://pytest.org/latest/) – Testing Python packages
 * [Sphinx](http://sphinx-doc.org/) – Documenting Python packages
 * [coverage.py](http://coverage.readthedocs.org/en/latest/) - Measure code coverage
@@ -29,21 +27,12 @@ though):
 * [pep8](http://pep8.readthedocs.org/en/latest/) - Python [PEP8](https://www.python.org/dev/peps/pep-0008/) style guide checker
 * [autopep8](https://github.com/hhatto/autopep8#autopep8) - Python PEP8 auto code formatter
 * [prospector](http://prospector.readthedocs.org/en/master/) - Python static analysis
-
-Maybe these should be covered as well here or in some other tutorial?
-
 * [pip](https://pip.pypa.io/en/latest/),
   [virtualenv](https://virtualenv.pypa.io/en/latest/),
   [setuptools](http://pythonhosted.org/setuptools/) - [Python packaging](https://packaging.python.org/en/latest/current.html)
 * [conda](http://conda.pydata.org/docs/) - Multi-platform package and environment management system
-* [debugging](http://scipy-lectures.github.io/advanced/debugging/)?
-
-TODO: should we cover IPython here or in the `python-scientific` tutorial?
-
-Timing / profiling tools for Python performance analysis:
-
-* https://scipy-lectures.github.io/advanced/optimizing/index.html
-* http://www.huyng.com/posts/python-performance-analysis/
+* [debugging](http://scipy-lectures.github.io/advanced/debugging/) with print, IPython, ipydb
+* Briefly: git, Github, everyone make a pull request and look at travis-ci log
 
 ## How to prepare
 

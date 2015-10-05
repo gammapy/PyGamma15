@@ -1,8 +1,8 @@
 # Tutorial - Scientific Python
 
-* Presenter: tbd
+* Presenter: [Karl Kosack](https://github.com/kosack)
 * Duration: 90 min
-* Time: Tuesday, 14:00 - 15:30
+* Time: Tuesday, 11:00 - 12:30
 * Location: Central seminar room
 
 ## Abstract
@@ -15,6 +15,12 @@ TODO: decide what to cover ... maybe a subset of what's here:
 Should this just cover usage of Numpy, Scipy, Matplotlib,
 or also development (Numpy arrays and ufuncs in depth, profiling,
 Numpy docstring standard)?
+
+Timing / profiling tools for Python performance analysis:
+
+* https://scipy-lectures.github.io/advanced/optimizing/index.html
+* http://www.huyng.com/posts/python-performance-analysis/
+
 
 ## How to prepare
 

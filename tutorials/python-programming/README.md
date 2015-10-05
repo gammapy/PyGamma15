@@ -1,8 +1,8 @@
 # Tutorial - Python programming
 
-* Presenter: we're looking for a presenter ... please volunteer!
-* Duration: 90 min
-* Time: Tuesday, 11:00 - 12:30
+* Presenter: [Axel Donath](https://github.com/adonath)
+* Duration: 75 min
+* Time: Tuesday, 9:15 - 10:30
 * Location: Central seminar room
 
 ## Abstract
@@ -35,7 +35,7 @@ TODO: this is just a first suggestion, to be fleshed out:
 - class inheritance and super
 - staticmethod, classmethod
 - Python 2 / 3 compatible code with future imports and six
-- Python import system
+- Python import system (relative, absolute, circular import example)
 - Exceptions
 
 ## Going further

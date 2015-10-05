@@ -2,7 +2,7 @@
 
 * Presenter: Michael Schmelling
 * Duration: 90 min
-* Time: Tuesday, 14:00 - 15:30
+* Time: Tuesday, 16:00 - 17:30
 * Location: Central seminar room
 
 ## Abstract
