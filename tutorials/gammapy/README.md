@@ -1,8 +1,8 @@
 # Tutorial - Getting started with Gammapy
 
-* Presenter: [Johannes King](https://github.com/kingj90) with [Axel Donath](https://github.com/adonath) and [Christoph Deil](https://github.com/cdeil)
+* Presenter: [Johannes King](https://github.com/kingj90), [Christoph Deil](https://github.com/cdeil)
 * Duration: 90 min
-* Time: Tuesday, 11:00 - 12:30
+* Time: Wednesday, 11:00 - 12:30
 * Location: Central seminar room
 
 ## Abstract
