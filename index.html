@@ -91,39 +91,45 @@
                 <a href="http://www.cta-observatory.org">CTA</a> ) as well as astrophysical modeling codes.
             </p>
             <p>
-                The goal of this workshop is to share information about existing open-source Python packages
-                relevant for gamma-ray astronomy, improve their capabilities and interoperability,
-                as well as provide training to grow the user and contributor base.
+                The goals of this workshop are:
+                <ul>
+                    <li>to share information about existing open-source Python packages relevant for gamma-ray astronomy</li>
+                    <li>to improve their capabilities and interoperability</li>
+                    <li>to provide training in using and contributing to these packages.</li>
+                </ul>
             </p>
             <p>
-                The focus will be mostly on high-level science tools and methods
-                (gamma-ray source spectrum and morphology analysis and modeling),
-                but there will be a group of people working on lower-level analysis
-                (data calibration, event reconstruction) as well.
+                The focus will be mostly on high-level science tools and methods (gamma-ray source spectrum and morphology analysis and modeling), but there will be a group of people working on lower-level analysis (data calibration, event reconstruction) as well.
             </p>
             <p>
-                Note that this workshop is not a Python 'boot camp' or ‘school’.
-                We do expect participants to have already at least used Python for
-                some of their projects, even if only at a beginner level,
-                and to have an interest to contribute to open-source projects in the future.
+                Note that this workshop is not a Python 'boot camp' or ‘school’. We expect participants to have already used Python for at least some of their projects, even if only at a beginner level, and to have an interest to contribute to open-source projects.
             </p>
         </section>
 
         <section id="schedule-overview">
             <h1>Schedule</h1>
+            <h2>Overview</h2>
+            <ul>
+                <li>
+                    We will start the workshop with a series of plenary overview talks on Monday.<br>
+                    At the end of the day we'll have a discussion on the goals for the workshop and beyond.<br>
+                </li>
+                <li>
+                    Tuesday, Wednesday, Thursday will be parallel tutorial and unconference sessions.
+                </li>
+                <li>
+                     On Friday we'll have a plenary lightning talk and a workshop summary session in the morning.<br>
+                     Open-end unconference sessions in the afternoon for those that have time to stay for the whole day.
+                 </li>
+            </ul>
+            <h5>What is an unconference session?</h5>
             <p>
-                We will start the workshow with plenary talks on Monday morning. Tuesday to Thursday we have tutorial and unconference sessions. On Friday we'll have a plenary lightning talk and summary session.
-            </p>
-            <p>
-                The rest of the week (Tuesday to Friday) will be largely a free-form hands-on work meeting. We expect participants to form small groups to discuss and work on what they like. To make this effective, we will have a board where everyone meets in the morning
-                and after lunch (for ~ 15 minutes) to propose sessions that every participant can join. Every evening we'll again all meet to have a 5-minute summary of each session.
-            </p>
-            <p>
-                For users and new people that want to become contributors, we'll offer a series of tutorials: For further information, see the <a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials">tutorials</a> folder in the workshop
-                repo on Github.
-            </p>
-            <p>
-                The following agenda is still somewhat preliminary. If you'd like to give an talk or tutorial, please send an email to <a href="mailto:Christoph.Deil@mpi-hd.mpg.de">Christoph Deil</a>.
+                We expect that the participants at this workshop will have very diverse skills (Python coding and data analysis / modeling experience)
+                and interests (e.g. gamma-ray source SED modeling or Cherenkov telescope event reconstruction or ...).
+                Making everyone sit in the same tutorials would not be effective, and coding sessions only work in small groups anyways.
+                So you can decide yourself if you want to attend a tutorial, or if you prefer to organise or participate in an "unconference session" (e.g. discussion, planning, coding).
+                To facilitate this we will have a board up during the whole conference where everyone can propose "unconference sessions" or put your name down for something and we assign desks / rooms.
+                At the end of each day we'll have the various groups report back with a few-minute summary.
             </p>
         </section>
 
@@ -305,7 +311,7 @@
             <h2>Tuesday</h2>
             <p>
                 This schedule only lists tutorials, which take place in the central seminar room (CSR).
-                <br> In parallel the Otto-Hahn and other rooms can be used for unconference sessions (see TODO).
+                <br> In parallel the Otto-Hahn and other rooms can be used for unconference sessions.
             </p>
             <table class="table table-striped table-hover">
                 <thead>
@@ -369,7 +375,7 @@
             <h2>Wednesday</h2>
             <p>
                 This schedule only lists tutorials, which take place in the central seminar room (CSR).
-                <br> In parallel the Otto-Hahn and other rooms can be used for unconference sessions (see TODO).
+                <br> In parallel the Otto-Hahn and other rooms can be used for unconference sessions.
             </p>
             <table class="table table-striped table-hover">
                 <thead>
@@ -429,7 +435,7 @@
             <h2>Thursday</h2>
             <p>
                 This schedule only lists tutorials, which take place in the central seminar room (CSR).
-                <br> In parallel there will be discussion and coding sprint sesssions in the other rooms (see TODO).
+                <br> In parallel there will be discussion and coding sprint sesssions in the other rooms.
             </p>
             <table class="table table-striped table-hover">
                 <thead>
@@ -585,9 +591,45 @@
         <section id="prepare">
             <h1 id="prepare">Prepare</h1>
             <p>
-                If you're new to <a href="https://www.python.org/">Python</a>, we recommend that you spend some time to learn it before the workshop in the context of scientific computing and Astronomy.
+                If you're new to Python or haven't contributed to open-source project with git / GitHub, please spend some time to learn it before the workshop.
+                The tutorials at this workshop will not be at the absolute beginner level (but not very advanced either).
+            </p>
+            <p>
+                If you're unsure if this workshop is appropriate for you, here's a list of things we expect most participants will fulfill:
+                <ul>
+                    <li>
+                        A laptop with a working scientific Python setup (we recommend you install Anaconda if you don't have this set up now, packages from Linux package managers are often too old).
+                    </li>
+                    <li>
+                        A Github account (it's free) and have successfully run git commit, branch, push, pull, maybe even merge or rebase.
+                    </li>
+                    <li>
+                        Written some Python functions and classes before. Know what a Python module and package is. Used the IPython terminal and notebook.
+                    </li>
+                    <li>
+                        Done some X-ray or gamma-ray data analysis, ideally using a Python script.
+                    </li>
+                    <li>
+                        The tutorials will all list their "requirements for participation" separately.
+                        E.g. if you want to participate in the Fermi-LAT data analysis tutorial, you need to install the ScienceTools and FermiPy,
+                        but this is not needed for the rest of the workshop.
+                    </li>
+                </ul>
+            </p>
+            <p>
+                 There's a lot of great resources freely available online that you can use to prepare for the workshop:
                 <br>
                 <ul>
+                    <li>
+                        If you don't have a scientific Python stack installed on your computer, try it out online at <a href="https://try.jupyter.org/">https://try.jupyter.org/</a> (this uses the <a href="https://jupyter.org/">Jupyter</a> notbook, formerly
+                        known as the
+                        <a href="http://ipython.org/">IPython</a> notebook) and then to install it on your machine, we recommend <a href="http://continuum.io/downloads">Anaconda</a> as a free, cross-platform (Linux, Mac, Windows) scientific Python distribution.
+                    </li>
+                    <li>
+                        The <a href="https://git-scm.com/">git</a> version control system and code development on <a href="https://github.com/">Github</a>.
+                        The <a href="https://help.github.com/categories/bootcamp/">Github bootcamp help page</a> contains links to
+                        excellent tutorials and resources.
+                    </li>
                     <li>
                         The <a href="https://scipy-lectures.github.io/">Scipy Lecture Notes</a> are a good tutorial to learn about
                         <a href="http://www.numpy.org/">Numpy</a>,
@@ -600,24 +642,10 @@
                         Since Python is very popular overall, and specifically in Astronomy, there's of course a ton of other free tutorials, books and resources available online, e.g. the <a href="http://www.astropython.org/">Python for Astronomers web site</a>                        or the <a href="http://www.astropy.org/astropy-tutorials/">Astropy tutorials</a>.
                     </li>
                     <li>
-                        If you don't have a scientific Python stack installed on your computer, try it out online at <a href="https://try.jupyter.org/">https://try.jupyter.org/</a> (this uses the <a href="https://jupyter.org/">Jupyter</a> notbook, formerly
-                        known as the
-                        <a href="http://ipython.org/">IPython</a> notebook) and then to install it on your machine, we recommend <a href="http://continuum.io/downloads">Anaconda</a> as a free, cross-platform (Linux, Mac, Windows) scientific Python distribution.
-                    </li>
-                    <li>
                         If you are completely new to Python, and have time, you can of course read a Python programming book (there's some free books listed <a href="http://www.fullstackpython.com/best-python-resources.html">here</a>). But it turns out
                         that for effective scientific computing and data analysis, this isn't really needed, and some basic knowledge on functions, classes and modules can get you a long way!
                     </li>
-                    <li>
-                        Gamma-ray astronomy specific tutorials will be prepared for the workshop, although of course you can start learning about the existing codes using their normal documentation.
-                    </li>
                 </ul>
-            </p>
-            <p>
-                If you're thinking about contributing to one of the open-source projects discussed at this workshop, you should learn a bit about the
-                <a href="https://git-scm.com/">git</a> version control system and code development on <a href="https://github.com/">Github</a>. The <a href="https://help.github.com/categories/bootcamp/">Github bootcamp help page</a> contains links to
-                excellent tutorials and resources.
-            </p>
         </section>
 
         <section id="participants">
