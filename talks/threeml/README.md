@@ -7,7 +7,7 @@
 
 The Multi-Mission Maximum Likelihood [3ML](https://threeml.stanford.edu) project
 aims at providing a common framework for joint analysis of sources combining
-data from different instruments in a statistically consistent fashion. 3ML is
+data from different multiwavelength/multimessenger instruments in a statistically consistent fashion. 3ML is
 based on the likelihood formalism, in which a model summarizing our knowledge
 about a particular region of the sky is convolved with the instrument response
 and compared to the relevant data. The innovative architecture of 3ML employs
