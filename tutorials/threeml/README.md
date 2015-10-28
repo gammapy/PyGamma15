@@ -20,7 +20,7 @@ an ipython notebook on a remote server.
 ## How to prepare
 
 If you did not attend the Monday session please take a look at the
-slides [here](https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/threeml/README.md) 
+slides [here](https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/threeml/README.md). 
 
 ## Agenda
 
