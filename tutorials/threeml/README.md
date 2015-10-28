@@ -1,4 +1,4 @@
-# Tutorial - Getting started with Gammapy
+# Tutorial - How to analyze multi-mission data using 3ML
 
 * Presenter: [Luigi Tibaldo](https://github.com/tibaldo)
 * Duration: 90 min
