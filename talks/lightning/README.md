@@ -1,6 +1,6 @@
 # Lightning talk session
 
-* Chair: [tbd]()
+* Chair: [Luigi Tibaldo](https://github.com/tibaldo)
 * Friday, 9:15 -- 11:00
 
 ## What is this?

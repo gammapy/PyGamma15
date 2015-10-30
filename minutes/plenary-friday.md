@@ -1,6 +1,6 @@
 # Plenary discussion session Friday
 
-* Chair: tbd
+* Chair: [Christoph Deil](https://github.com/cdeil/)
 * Time: Friday, 11 am -- 12:30 am
 * Participants: all
 
