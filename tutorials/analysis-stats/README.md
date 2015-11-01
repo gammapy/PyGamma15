@@ -36,7 +36,18 @@ As an optional part we'll have exercises for advanced users to
 
 ## How to prepare
 
-- Install iminuit, emcee, scipy
+To participate in this tutorial, you have to have a working scientific Python
+installation (Python, IPython including notebook, iminuit, emcee and a few other packages).
+
+The full list of packages is given in the [setup-check.ipynb](https://github.com/gammapy/PyGamma15/blob/gh-pages/tutorials/analysis-stats/setup-check.ipynb)
+IPython notebook and you can also use that to check that everything is working correctly:
+
+    git clone git@github.com:gammapy/PyGamma15.git
+    cd PyGamma15/tutorials/analysis-stats
+    ipython notebook setup-check.ipynb
+
+It doesn't matter if you use Python 2 or 3 for this tutorial,
+everything will work the same.
 
 ## Agenda
 
