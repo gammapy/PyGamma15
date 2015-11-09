@@ -5,7 +5,6 @@
 * Time: Wednesday, 16:00 - 17:30
 * Location: Central seminar room
 
-
 ## Abstract
 
 In this tutorial I will briefly introduce D3PO, which addresses the inference
