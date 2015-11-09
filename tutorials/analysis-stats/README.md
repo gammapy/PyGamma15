@@ -1,8 +1,8 @@
 # Tutorial - Statistics for gamma-ray astronomy
 
-* Presenter: Michael Schmelling and [Christoph Deil](https://github.com/cdeil)
+* Presenter: [Michael Schmelling](michael-mpik) and [Christoph Deil](https://github.com/cdeil)
 * Duration: 90 min
-* Time: Tuesday, 16:00 - 17:30
+* Time: Tuesday, 14:00 - 15:30
 * Location: Central seminar room
 
 ## Abstract

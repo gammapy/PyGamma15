@@ -2,8 +2,8 @@
 
 * Presenter: [Luigi Tibaldo](https://github.com/tibaldo)
 * Duration: 90 min
-* Time: tbd
-* Location: tbd
+* Time: Tuesday, 16:00 - 17:30
+* Location: Central seminar room
 
 ## Abstract
 

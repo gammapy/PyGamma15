@@ -1,6 +1,6 @@
 # Talk - Statistics for gamma-ray astronomy
 
-* Presenter: [Michael Schmelling]()
+* Presenter: [Michael Schmelling](michael-mpik)
 * Duration: 25 + 5 min
 
 ## Abstract

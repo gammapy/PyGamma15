@@ -1,7 +1,7 @@
 # Talk - 3D cube analysis for Cherenkov telescopes
 
 * Presenter: [Peter Eger](https://github.com/peger089)
-* Duration: 20 + 5 min
+* Duration: 15 + 5 min
 
 ## Abstract
 

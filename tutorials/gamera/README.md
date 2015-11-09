@@ -1,8 +1,8 @@
-# Tutorial - Gamera
+# Tutorial - Astrophysical modeling with Gamera
 
 * Presenter: [Joachim Hahn](https://github.com/JoachimHahn)
-* Duration: 90 min
-* Time: tbd
+* Duration: 75 min
+* Time: Thursday, 9:15 - 10:30
 * Location: Central seminar room
 
 ## Abstract

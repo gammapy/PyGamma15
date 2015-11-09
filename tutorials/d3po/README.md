@@ -1,9 +1,10 @@
-# Tutorial - D3PO- Denosing, Deconcolving, and Decomposing Photon observations, an algorithm based on information field theory
+# Tutorial - D3PO - Denosing, Deconcolving, and Decomposing Photon observations, an algorithm based on information field theory
 
 * Presenter: [Daniel Pumpe](https://github.com/dpumpe)
-* Duration: 75 
-* Time: tbd
-* Location: tbd
+* Duration: 90 min
+* Time: Wednesday, 16:00 - 17:30
+* Location: Central seminar room
+
 
 ## Abstract
 

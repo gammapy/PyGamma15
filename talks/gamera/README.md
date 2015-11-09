@@ -1,7 +1,7 @@
 # Talk - Gamera
 
 * Presenter: [Joachim Hahn](https://github.com/JoachimHahn/)
-* Duration: 10 + 5 min
+* Duration: 15 + 5 min
 
 ## Abstract
 

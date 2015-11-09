@@ -1,8 +1,8 @@
 # Tutorial - CTA Python pipeline
 
 * Presenter: [Karl Kosack](https://github.com/kosack)
-* Duration: 75 min
-* Time: Thursday, 9:15 - 10:30
+* Duration: 90 min
+* Time: Wednesday, 14:00 - 15:30
 * Location: Central seminar room
 
 ## Abstract

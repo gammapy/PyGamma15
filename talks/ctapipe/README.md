@@ -1,17 +1,17 @@
 # Talk - Exploring large-scale data processing in Python with CTA
 
 * Presenter: [Karl Kosack](https://github.com/kosack)
-* Duration: 12 + 3 min
+* Duration: 15 + 5 min
 
 ## Abstract
 
-The upcoming CTA (Cherenkov Telescope Array) observarory faces the
+The upcoming CTA (Cherenkov Telescope Array) observatory faces the
 challenge of processing a large amount of binary data, similar in
 scale to that produced by the LHC at CERN. CTA's predecessors have all
 used data processing pipelines heavily based on CERN's ROOT framework
-and a mixture of compiled and scripted C++. Pittfalls related to this
-approach along with a desire to leverage code developent from a wider
-scientific and industial community have led us to explore using modern
+and a mixture of compiled and scripted C++. Pitfalls related to this
+approach along with a desire to leverage code development from a wider
+scientific and industrial community have led us to explore using modern
 Python (with packages like numpy, scikit-learn, astropy, etc) for at
 least the high-level parts of the CTA pipeline, and likely extending
 to the low-level algorithms. In this presentation I will present the

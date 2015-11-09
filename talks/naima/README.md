@@ -1,7 +1,7 @@
 # Talk - SED modeling with Naima
 
 * Presenter: [Victor Zabalza](https://github.com/zblz/)
-* Duration: 12 + 3 min
+* Duration: 15 + 5 min
 
 ## Abstract
 
