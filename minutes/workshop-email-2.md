@@ -1,5 +1,3 @@
-# Workshop email 2
-
 Dear colleagues,
 
 thanks for participating in the PyGamma15 workshop!
@@ -12,17 +10,19 @@ http://gammapy.github.io/PyGamma15/#participants
 
 We will start next Monday, November 16th at 9.15 am.
 If you take bus number 39 from Bismarckplatz at 8.43 am you will be at MPIK in time.
+Get a visitor pass at the main gate, then head down the main road to the library building.
 
 Below find some more information.
 Please let us know if there is some information missing of if you have any questions!
 
 Best regards,
 
-Christoph Deil
+Christoph Deil <Christoph.Deil@mpi-hd.mpg.de>
 Peter Eger
 Axel Donath
 Johannes King
 Luigi Tibaldo
+(local organisers)
 
 
 ## Program
@@ -44,7 +44,26 @@ Note that we don't expect everyone to go to all the tutorials, instead feel
 free to just attend the ones you like, and otherwise spend time talking or
 coding in small groups (coding works best in groups of two or three).
 
-## Twitter and remote participation
+## Flash introductions and Lightning talks
+
+On Monday we’ll have a flash introduction session where every workshop participant
+introduces themselves in 1 minute (max, shorter is OK):
+https://github.com/gammapy/PyGamma15/blob/gh-pages/talks/intro-flash/README.md
+
+On Friday we’ll have a lightning talk session where every participant can talk for
+5 minutes (max, shorter is OK) basically about anything they like:
+https://github.com/gammapy/PyGamma15/blob/gh-pages/talks/lightning/README.md
+
+This is a chance for you to present / demo e.g. something you’ve coded or some
+package or tool you like or some analysis you’ve put together with Python or some
+software you’ve worked on … basically anything you think might be of interest to
+other people at this workshop.
+
+If you’d like to give a lightning talk, please email
+Luigi Tibaldo <Luigi.Tibaldo@mpi-hd.mpg.de>
+before or during the workshop or talk to Luigi directly.
+
+## Twitter, no remote participation
 
 We want to keep it simple, so remote participation is not possible and
 we didn't set up a mailing list for the workshop.
