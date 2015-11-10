@@ -33,4 +33,4 @@ These tutorials are examples what's involved in doing a 3D cube binned
 likelihood analysis:
 
 * http://fermi.gsfc.nasa.gov/ssc/data/analysis/scitools/binned_likelihood_tutorial.html
-* http://cta.irap.omp.eu/ctools/user_manual/getting_started/beyond_stacked.html
+* http://cta.irap.omp.eu/ctools/user_manual/
