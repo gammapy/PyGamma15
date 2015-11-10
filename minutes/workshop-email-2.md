@@ -50,7 +50,7 @@ We want to keep it simple, so remote participation is not possible and
 we didn't set up a mailing list for the workshop.
 
 It's not clear to us if this will be used / useful, but if you're on Twitter
-discussing workshop-related topics, please use hashtag `#PyGamma15`.
+discussing workshop-related topics, please use hashtag `#pygamma15`.
 
 ## Prepare
 
