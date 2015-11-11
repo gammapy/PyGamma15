@@ -23,7 +23,8 @@ To run the tutorial you will need to install
 The installation of 3ML requires as prerequisites:
 * numpy and scipy
 * the [Boost libraries](http://www.boost.org/) with python bindings
-* the [ROOT analysis framework](https://root.cern.ch/)
+* the [ROOT analysis framework](https://root.cern.ch/).
+
 Once you have installed them download
 [3ML](https://github.com/giacomov/3ML) and look at the setup.py help
 to get started. If you have trouble with the installation contact
@@ -38,14 +39,14 @@ are ready for the tutorial.
 We will analyze jointly Fermi LAT and Swift XRT observations of the
 gamma-ray burst GRB090510. We will go through the following steps
 * Data specification
-* Definition of likelihhod model
+* Definition of likelihood model
 * Fit using Minuit and inspection of results
 * Definition of custom models
 * Bayesian analysis
 
 ## Going further
 
-Note also that 3ML is a very young project and there are many areas
+Note that 3ML is a very young project and there are many areas
 where the features, implementation and documentation is work in progress.
 So please have some patience and let us know where we should put our
 priorities. We can also discuss possible contributions if you want to
