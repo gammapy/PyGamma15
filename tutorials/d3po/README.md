@@ -25,8 +25,15 @@ capabilities. Then the usage of D3PO will be demonstrated.
 
 ## How to prepare
 
-- Install ...
-- Download example data ...
+1. Install NIFTy by pip install ift_nifty
+2. Install D3PO by pip install ift_d3po
+
+Detailed instruction how to install [NIFTy](http://wwwmpa.mpa-garching.mpg.de/ift/nifty/install.html#download-label) 
+and [D3PO](http://wwwmpa.mpa-garching.mpg.de/ift/d3po/install.html#download-label) 
+
+First you should install all dependicies ([NUMPy](http://www.numpy.org), [SciPy](http://www.scipy.org), [matplotlib](http://matplotlib.org), [multiprocessing](https://docs.python.org/2/library/multiprocessing.html), [GFFT](https://github.com/mrbell/gfft), [healpy](https://github.com/healpy/healpy), [libsharpwrapper](https://github.com/mselig/libsharp-wrapper)) needed for NIFTy, followed by the NIFTy installtion itself. Last one may install D3PO as it deppends on NIFTy. 
+
+Please note that NIFTy as well as D3PO only work with Python 2.7
 
 ## Agenda
 
