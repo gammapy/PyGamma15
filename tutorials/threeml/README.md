@@ -13,26 +13,37 @@ The concept of 3ML will be covered in the
 [previous talk](https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/threeml/README.md)
 on Monday.
 
-You will go through a joint spectral analysis of Fermi-LAT and tbd
-observations of a point source using 3ML. The tutorial will make use of
-an ipython notebook on a remote server. 
-
 ## How to prepare
 
-If you did not attend the Monday session please take a look at the
-slides [here](https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/threeml/README.md). 
+To run the tutorial you will need to install
+* the [Fermi ScienceTools](http://fermi.gsfc.nasa.gov/ssc/data/analysis/)
+* [3ML](https://github.com/giacomov/3ML)
+* Jupyter notebook/ipython notebook
+
+The installation of 3ML requires as prerequisites:
+* numpy and scipy
+* the [Boost libraries](http://www.boost.org/) with python bindings
+* the [ROOT analysis framework](https://root.cern.ch/)
+Once you have installed them download
+[3ML](https://github.com/giacomov/3ML) and look at the setup.py help
+to get started. If you have trouble with the installation contact
+[Luigi Tibaldo](https://github.com/tibaldo) or
+[Giacomo Vianello](https://github.com/giacomov).
+
+TODO: add zipped folder with tutorial notebook; how to check if you
+are ready for the tutorial.
 
 ## Agenda
 
-TBD
+We will analyze jointly Fermi LAT and Swift XRT observations of the
+gamma-ray burst GRB090510. We will go through the following steps
+* Data specification
+* Definition of likelihhod model
+* Fit using Minuit and inspection of results
+* Definition of custom models
+* Bayesian analysis
 
 ## Going further
-
-After the tutorial you can install 3ML on your computer to run
-your own analyses. Note
-that running an analysis using 3ML requires as well to install the
-software underlying the plugins for each instrument (e.g., the
-Fermi-LAT Science Tools if you want to analyze Fermi-LAT data, etc.). 
 
 Note also that 3ML is a very young project and there are many areas
 where the features, implementation and documentation is work in progress.
