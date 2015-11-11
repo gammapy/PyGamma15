@@ -37,7 +37,7 @@ are ready for the tutorial.
 ## Agenda
 
 We will analyze jointly Fermi LAT and Swift XRT observations of the
-gamma-ray burst GRB090510. We will go through the following steps
+gamma-ray burst GRB090510 to determine its spectrum from 1 keV to 10 GeV. We will go through the following steps
 * Data specification
 * Definition of likelihood model
 * Fit using Minuit and inspection of results
