@@ -29,7 +29,7 @@ Tibaldo</a> either in
 person or via email not later than Thursday evening.
 All that's needed beforehand is a title for your lightning talk.
 The workshop participants will choose the best lightning talk and the
-speaker will receive as prize the book ["Effective Computation in Physics"](http://shop.oreilly.com/product/0636920033424.do)
+speaker will receive as prize the book ["Effective Computation in Physics"](http://shop.oreilly.com/product/0636920033424.do).
 
 ## Talks
 
