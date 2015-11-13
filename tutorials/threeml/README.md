@@ -32,8 +32,8 @@ Once you have installed the prerequisites
 [3ML](https://github.com/giacomov/3ML) and look at the setup.py help
 to get started. For compatibility we recommend to install 3ML for the
 python distributed with the Fermi Science Tools. If you have trouble with the installation contact
-[Luigi Tibaldo](https://github.com/tibaldo) or
-[Giacomo Vianello](https://github.com/giacomov).
+<a href="mailto:luigi.tibaldo@mpi-hd.mpg.de">Luigi Tibaldo</a> or
+<a href="mailto:giacomov@stanford.edu">Giacomo Vianello</a>.
 
 TODO: add zipped folder with tutorial notebook; how to check if you
 are ready for the tutorial.
