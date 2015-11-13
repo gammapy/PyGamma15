@@ -2,7 +2,7 @@
 
 * Presenter: [Johannes King](https://github.com/kingj90), [Christoph Deil](https://github.com/cdeil)
 * Duration: 90 min
-* Time: Wednesday, 11:00 - 12:30
+* Time: Tuesday, 16:00 - 17:30
 * Location: Central seminar room
 
 ## Abstract
