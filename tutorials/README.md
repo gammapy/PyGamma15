@@ -1,26 +1,39 @@
 # Tutorials
 
-## General info for participants
+## Intro
 
-tbd
+Some tutorials will be mostly demos and you can participate by just
+watching the presenter explain code and run commands.
 
-## General info for presenters
+Other tutorials will be more hands-on, where participants are supposed
+to execute examples themselves or even with coding exercises.
 
-Please make a pull request to add a description and materials
-for your tutorial here (one sub-folder per presentation).
+In those cases you'll want a laptop with Python and the required packages
+installed. Every tutorial contains a "how to prepare" section with instructions
+what software to install **before the tutorial**.
 
-It would help us a lot if you could add a `README.md` file outlining
-the content of your presentation here, so that we can make sure
-all relevant info is covered and the order of presentations makes sense.
+## Anaconda
 
-Each tutorial will be 75 or 90 minutes.
-If you need more time, the tutorial should be split in two parts.
+We recommend you go to https://www.continuum.io/downloads and get Anaconda.
+Miniconda is fine as well if you're on a slow network or low on disk space
+... see [here](http://conda.pydata.org/docs/faq.html#general-questions) for
+an explanation what `conda`, `Anaconda` and `miniconda` are.
 
-Please add a `tutorial-setup-check.py` script in your tutorial folder,
-that checks if the software and data needed is available.
-Providing a script or Makefile that downloads the required data is
-also simpler for participants than instructions they have to follow manually.
+It doesn't matter much if you get the Python 2.7 or the Python 3.5 installer
+for Anaconda or miniconda. With either version you'll be able to install
+Python and packages simultaneously with any of the Python versions 2.7, 3.4 and 3.5.
+If you're confused, just download the Python 3.5 installer.
 
-If possible, please structure the tutorial so that everything happens
-in your tutorial folder of this git repo.
-This makes instructions simpler and work exactly the same for everyone.
+TODO: give commands how to install common software for Python 2.7 and 3.4
+(quite a few packages don't work with Python 3.5 yet, so best to stick with Python 3.4 for now)
+
+TODO: set alias to that Python 2 / 3 environment?
+
+```
+$ python3
+Python 3.4.3 (default, Oct 24 2015, 21:27:43) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.1.76)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+$
+```
