@@ -21,7 +21,6 @@ analysis based on either likelihood optimization or Bayesian sampling.
 * Motivations: why multi-mission analyses?
 * Approaches: instrument response deconvolution versus model forward folding
 * 3ML concept overview (plugins, models, analysis)
-* Frequentist versus Bayesian analysis 
 * Status of the 3ML software
 * Tutorial announcement
 * What can we work on this week?
