@@ -15,6 +15,8 @@ what software to install **before the tutorial**.
 ## Anaconda
 
 We recommend you go to https://www.continuum.io/downloads and get Anaconda.
+It's a free, fast and very popular way to get up-to-date Python and packages.
+
 Miniconda is fine as well if you're on a slow network or low on disk space
 ... see [here](http://conda.pydata.org/docs/faq.html#general-questions) for
 an explanation what `conda`, `Anaconda` and `miniconda` are.
@@ -24,16 +26,12 @@ for Anaconda or miniconda. With either version you'll be able to install
 Python and packages simultaneously with any of the Python versions 2.7, 3.4 and 3.5.
 If you're confused, just download the Python 3.5 installer.
 
-TODO: give commands how to install common software for Python 2.7 and 3.4
-(quite a few packages don't work with Python 3.5 yet, so best to stick with Python 3.4 for now)
+Once you have `conda` available, please install one Python 2.7 and one Python 3.4
+environment and learn how to use them here:
+http://conda.pydata.org/docs/test-drive.html
 
-TODO: set alias to that Python 2 / 3 environment?
-
-```
-$ python3
-Python 3.4.3 (default, Oct 24 2015, 21:27:43) 
-[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.1.76)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> exit()
-$
-```
+Some tutorials (e.g. Gammapy and D3PO) need Python 2.7, one needs Python 3.4 (ctapipe)
+and generally Python 3 is the better language.
+Python 3.5 is very new and some packages (even Astropy) don't have a compatible
+stable release yet, so for now we recommend Python 3.4
+(of course, if you're not low on disk space, additionally installing Python 3.5 just takes a minute).
