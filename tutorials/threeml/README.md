@@ -16,6 +16,10 @@ interested to contribute to code development.
 
 ## How to prepare
 
+The installation of the software required for the tutorial may be time
+consumins. If you want to be able to be able to interactively
+participate to the tutorial you are advised to start setting up your machine well in advance.
+
 To run the tutorial you will need to install
 * the [Fermi ScienceTools](http://fermi.gsfc.nasa.gov/ssc/data/analysis/)
 * [3ML](https://github.com/giacomov/3ML)
@@ -35,8 +39,12 @@ python distributed with the Fermi Science Tools. If you have trouble with the in
 <a href="mailto:luigi.tibaldo@mpi-hd.mpg.de">Luigi Tibaldo</a> or
 <a href="mailto:giacomov@stanford.edu">Giacomo Vianello</a>.
 
-TODO: add zipped folder with tutorial notebook; how to check if you
-are ready for the tutorial.
+Now, <a href="static/GRB090510.tar.gz" download>download</a> the
+tarball that contains the ipython notebook and the data for the
+tutorial. Open the notebook "joint\_xrt\_lat.ipynb". Run the first
+code block on your machine. Do you get only a warning saying that HAWC
+software is not available on your machine? Congratulations! You are
+ready for the interactive tutorial.
 
 Optional: in the tutorial you will deal with an instrument and data format that
 are not going to be covered in detail, if at all, in the previous
