@@ -42,7 +42,7 @@ python distributed with the Fermi Science Tools. If you have trouble with the in
 Now, <a href="static/GRB090510.tar.gz" download>download</a> the
 tarball that contains the ipython notebook and the data for the
 tutorial. Open the notebook "joint\_xrt\_lat.ipynb". Run the first
-code block on your machine. Do you get only a warning saying that HAWC
+code block. Do you get only a warning saying that HAWC
 software is not available on your machine? Congratulations! You are
 ready for the interactive tutorial.
 
