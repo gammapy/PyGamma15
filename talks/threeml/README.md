@@ -24,7 +24,7 @@ analysis based on either likelihood optimization or Bayesian sampling.
 * Frequentist versus Bayesian analysis 
 * Status of the 3ML software
 * Tutorial announcement
-* what can we work on this week?
+* What can we work on this week?
 
 ## References
 
