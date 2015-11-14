@@ -39,7 +39,7 @@ python distributed with the Fermi Science Tools. If you have trouble with the in
 <a href="mailto:luigi.tibaldo@mpi-hd.mpg.de">Luigi Tibaldo</a> or
 <a href="mailto:giacomov@stanford.edu">Giacomo Vianello</a>.
 
-Now, <a href="static/GRB090510.tar.gz" download>download</a> the
+Now, <a href="GRB090510.tar.gz" download>download</a> the
 tarball that contains the ipython notebook and the data for the
 tutorial. Open the notebook "joint\_xrt\_lat.ipynb". Run the first
 code block. Do you get only a warning saying that HAWC
