@@ -1,20 +1,22 @@
-# Talk - Gamera
+# Talk - GAMERA
 
 * Presenter: [Joachim Hahn](https://github.com/JoachimHahn/)
 * Duration: 15 + 5 min
 
 ## Abstract
 
-What is Gamera?
-What will be covered by the presentation?
+GAMERA is a new open-source C++ package which handles the spectral modelling of non-thermally emitting astrophysical sources in a simple and modular way. It allows the user to devise time-dependent models of leptonic and hadronic particle populations in a general astrophysical context (including SNRs, PWNs and AGNs) and to compute their subsequent photon emission. Moreover, this package also contains the necessary tools to create Monte-Carlo population synthesis models.
+It has been wrapped to a python package, GAPPA, which makes GAMERA now accessible to python users.
 
 ## Outline
 
-* Topic 1
-* Topic 2
-  * Topic 1.2
-* Topic 3
+* Code Structure
+* Features
+  * Spectral Modeling
+  * Astrophysics tools
+* Examplles
 
 ## References
 
-Useful links (ICRC poster / proceeding, webpage, tutorial later in the week ...)
+https://github.com/JoachimHahn/GAMERA
+http://joachimhahn.github.io/GAMERA/tutorial.html
