@@ -21,7 +21,9 @@ consuming. If you want to be able to interactively
 participate to the tutorial you are advised to start setting up your machine well in advance.
 
 To run the tutorial you will need to install
-* the [Fermi ScienceTools](http://fermi.gsfc.nasa.gov/ssc/data/analysis/)
+* the
+  [Fermi ScienceTools](http://fermi.gsfc.nasa.gov/ssc/data/analysis/)
+  (v10r0p5 or later)
 * [3ML](https://github.com/giacomov/3ML)
 * Jupyter notebook/ipython notebook
 
