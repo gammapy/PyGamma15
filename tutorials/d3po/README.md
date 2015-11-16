@@ -2,7 +2,7 @@
 
 * Presenter: [Daniel Pumpe](https://github.com/dpumpe)
 * Duration: 90 min
-* Time: Wednesday, 16:00 - 17:30
+* Time: Tuesday, 16:00 - 17:30
 * Location: Central seminar room
 
 ## Abstract
@@ -32,12 +32,12 @@ capabilities. Then the usage of D3PO will be demonstrated.
 Detailed instruction how to install [NIFTy](http://wwwmpa.mpa-garching.mpg.de/ift/nifty/install.html#download-label) 
 and [D3PO](http://wwwmpa.mpa-garching.mpg.de/ift/d3po/install.html#download-label) 
 
-First you should install all dependicies ([NUMPy](http://www.numpy.org), [SciPy](http://www.scipy.org), [matplotlib](http://matplotlib.org),and the optional ones: [GFFT](https://github.com/mrbell/gfft), [healpy](https://github.com/healpy/healpy), [libsharpwrapper](https://github.com/mselig/libsharp-wrapper)) needed for NIFTy, followed by the NIFTy installtion itself. Last one may install D3PO as it deppends on NIFTy. 
+First you should install all dependencies ([NUMPy](http://www.numpy.org), [SciPy](http://www.scipy.org), [matplotlib](http://matplotlib.org),and the optional ones: [GFFT](https://github.com/mrbell/gfft), [healpy](https://github.com/healpy/healpy), [libsharpwrapper](https://github.com/mselig/libsharp-wrapper)) needed for NIFTy, followed by the NIFTy installation itself. Last one may install D3PO as it depends on NIFTy. 
 
 After successfully installing everything we will go thru the [Wiener filter](https://github.com/gammapy/PyGamma15/blob/gh-pages/tutorials/d3po/Wiener_filter.ipynb) and D3PO demo. 
 Please note that NIFTy as well as D3PO only work with Python 2.7. 
 
-In case the installtion does not work, please get in contact with me dpumpe@mpa-garching.mpg.de. 
+In case the installation does not work, please get in contact with me dpumpe@mpa-garching.mpg.de. 
 
 ## Agenda
 
@@ -45,7 +45,7 @@ In case the installtion does not work, please get in contact with me dpumpe@mpa-
 - Introduction to Information field theory
 - Numerical information field theory, what are its capabilities?
   Hands so session (Wiener filter etc.)
-- Introduction to D3PO- Denoising, Deconvolving, and Decomposing photon observations
+- Introduction to D3PO - Denoising, Deconvolving, and Decomposing photon observations
 - Hands on session with D3PO
 
 ## Going further
