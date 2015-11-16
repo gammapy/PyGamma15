@@ -30,7 +30,7 @@ The installation of 3ML requires as prerequisites:
 * the [Boost libraries](http://www.boost.org/) with python bindings
 * <strike>the [ROOT analysis framework](https://root.cern.ch/), including
   Minuit2 (note that Minuit2 is not activated by default in all ROOT
-  distributions).<\strike> (the latest version of 3ML is ROOT free!)
+  distributions).</strike> (the latest version of 3ML is ROOT free!)
 
 Once you have installed the prerequisites, download the
 [3ML](https://github.com/giacomov/3ML) software and look at the setup.py help
