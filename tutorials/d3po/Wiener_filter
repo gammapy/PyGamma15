@@ -1,5 +1,7 @@
 
 
+
+
 from nifty import *
 
 """
@@ -53,8 +55,9 @@ class Wiener_problem(object):
         b. the codomain of the signal field (default: k_space)
         c. the raw data (default: d)
         d. the response operator (default: R)
-        e. the Signal_covariance (default: S)
-        f. the noise covariance (default: N)
+        e. the Signal_covariance_true (default: S)
+        f. the Signal_covariance_assumed (default: None)
+        g. the noise covariance (default: N)
         
     Funtions: 
     
@@ -71,7 +74,8 @@ class Wiener_problem(object):
     """
     
     def __init__(self, domain=x_space, codomain=k_space, data=d, 
-                 Response_operator=R, Signal_covariance=S, 
+                 Response_operator=R, Signal_covariance_true=S, 
+                 Signal_covariance_assumed=None, 
                  Noise_covariance=N):
         
         if(domain is None):
@@ -94,10 +98,16 @@ class Wiener_problem(object):
         else:
             self.R=Response_operator
             
-        if(Signal_covariance is None):
+        if(Signal_covariance_true is None):
             raise TypeError ("Missing signal covariance")
         else:
-            self.S= Signal_covariance
+            self.S= Signal_covariance_true
+            
+        if (Signal_covariance_assumed is None):
+            self.S= Signal_covariance_true
+        else: 
+            spec=(lambda k: 42/(1+k)**Signal_covariance_assumed)
+            self.S= power_operator(self.codomain, spec= spec)
         
         if(Noise_covariance is None):
             raise TypeError ("Missing noise covariance")
@@ -127,7 +137,8 @@ class Wiener_problem(object):
         
     def steepest_descent(self):
         m= field(x_space, target= k_space)
-        m, convergence= steepest_descent(eggs= self.Hamiltonian_gradient, note=True)(m, clevel=4, tol=1E-4)
+        m, convergence= steepest_descent(eggs= self.Hamiltonian_gradient, 
+                                         note=True)(m, clevel=4, tol=1E-4)
         return m
         
     
