@@ -35,13 +35,9 @@ conda install naima scipy matplotlib ipython-notebook cython click pyyaml
 ```
 
 In order to
-install the development version of Gammapy just clone [this] git
-repository(https://github.com/gammapy/gammapy) and install it by typing ``python
+install the development version of Gammapy just clone [this git
+repository](https://github.com/gammapy/gammapy) and install it by typing ``python
 setup.py install``.
-
-For the spectral analysis example a sherpa installation is needed. You can try
-installing it following [these](http://cxc.harvard.edu/contrib/sherpa47/)
-instructions.
 
 You can also clone the [gammapy-extra](https://github.com/gammapy/gammapy-extra) repository. It contains the example dataset that will be used in the tutorial.
 
