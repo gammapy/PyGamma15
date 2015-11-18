@@ -7,38 +7,33 @@
 
 ## Abstract
 
-This is a tutorial on how to get started with Gammapy as a user.
-How to contribute to Gammapy will be covered in [a different tutorial](https://github.com/gammapy/2015-MPIK-Workshop/blob/gh-pages/tutorials/contributing/README.md).
+This is a tutorial on how to get started with Gammapy. It will follow mostly the [Gammapy documentation](https://gammapy.readthedocs.org/en/latest/).
 
 You will take some simulated H.E.S.S. event lists and IRFs and run
-a "classical" IACT source analysis:
+a "classical" IACT source analysis, as described in [this](https://github.com/gammapy/2015-MPIK-Workshop/blob/gh-pages/talks/analysis-classical/README.md) talk on Monday.
+:
 
 1. Produce an image in a broad energy band, do detection and morphology analysis
-   (as described in [this](https://github.com/gammapy/2015-MPIK-Workshop/blob/gh-pages/talks/analysis-image/README.md) talk on Monday).
 2. Select an on and off region, produce a spectrum and fit a spectral model
-   (as described in [this](https://github.com/gammapy/2015-MPIK-Workshop/blob/gh-pages/talks/analysis-spec/README.md) talk on Monday).
 
 If time allows, we'll take some Fermi-LAT high-energy data and make
 a Galactic plane survey TS image, run a source detection method and
 compare the result to the official 2FHL catalog.
 
+Another possibilty is to have a look in the code together and discuss how contributions to Gammapy can be most efficiently.
+
 ## How to prepare
 
-Install Gammapy 0.5 and Sherpa 4.7 (TODO: do we need the dev version?) using Python 2.7 as described [here](https://gammapy.readthedocs.org/en/latest/install.html#id1).
+Install the development version of Gammapy by cloning [this](https://github.com/gammapy/gammapy) git repository and running ``python setup.py install``. For the spectral fit you also need Sherpa 4.7 and Python 2.7 (see [here](http://cxc.harvard.edu/contrib/sherpa47/)).
 
-Download example data: TODO
-
-Run the `tutorial-setup-check.py` script (TODO: implement) to check if you have everything you need for the tutorial.
+You can also clone [this](https://github.com/gammapy/gammapy-extra) repository. It contains the example dataset that will be used in the tutorial.
 
 ## Agenda
 
-TODO: Add the tutorials to the official Gammapy docs, then just
-add links here.
-
-- Get everyone set up and run one command-line tool and Python command.
-- HESS image analysis
-- HESS spectrum analysis
-- Fermi-LAT make survey image, source list and compare to 2FHL
+- Make sure everyone has Gammapy installed ([docs](https://gammapy.readthedocs.org/en/latest/install.html))
+- Basic examples showing functions and class in Gammapy ([docs](https://gammapy.readthedocs.org/en/latest/getting-started.html))
+- Spectrum analysis using a command line tools ([docs](https://gammapy.readthedocs.org/en/latest/spectrum/index.html))
+- Creating an image using a Gammapy example notebook
 
 ## Going further
 
