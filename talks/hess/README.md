@@ -1,52 +1,42 @@
 # Talk - H.E.S.S. data analysis with open source tools
 
-* Presenter: [Christoph Deil](https://github.com/cdeil)
-* Duration: 12 + 3 min
+* Presenter: [Johannes King](https://github.com/kingj90)
+* Duration: 15 + 5 min
 
 ## Abstract
 
 [H.E.S.S.](http://www.mpi-hd.mpg.de/hfm/HESS/) is an array of
 Cherenkov telescopes in Namibia observing the sky at TeV energies since 2004.
 
-I will report on the activities in H.E.S.S. to export event lists
+In this talk I will report on the activities in H.E.S.S. to export event lists
 and instrument response functions (IRFs) to FITS, and to analyse
 them using open source science tools like [Gammapy](https://gammapy.readthedocs.org/en/latest/)
 and [ctools](http://cta.irap.omp.eu/ctools-devel/).
- 
+
+Note that since the H.E.S.S. data and non-published science analysis results are not public, this talk will focus on technical aspects (data formats, codes).
+
 ## Outline
 
-In this talk, I plan to cover:
-
 * The H.E.S.S. telescopes
-* H.E.S.S. internal data and analysis chains
+* H.E.S.S. internal analysis chains
 * The "H.E.S.S. data analysis with open source tools (HOST)" task group
-* FITS exporters, event list and IRF formats
+* FITS exporters for H.E.S.S. internal analysis chains
 * FITS data distribution within H.E.S.S.
-* Analyses with Gammapy and ctools
-* Cross-checks against results obtained with the H.E.S.S.-internal software packages (HAP and ParisAnalysis)
-* Summarise status and discuss where we might go from here ...
+* The "Fermi-LAT" data format for event list and IRFs
+* Cross-checks against results obtained with the H.E.S.S.-internal software packages using Gammapy and ctools
+* Open source tools in H.E.S.S. publications
 * What can we achieve at this workshop for H.E.S.S.?
   (data formats, methods, codes)
 
 ## References
 
-If you'd like to get a hands-on introduction to H.E.S.S. high-level
-data analysis, come to the [Gammapy](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/gammapy)
-and [Naima](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/naima) tutorials.
-If you'd like to do some low-level H.E.S.S. data analysis (shower images),
-join the [ctapipe](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/ctapipe)
-tutorial.
+* [Mathieu de Naurois: Very High Energy astronomy from H.E.S.S. to CTA. Opening of a new astronomical window on the non-thermal Universe](http://inspirehep.net/record/1122589)
+* [ICRC 2015 proceeding: Gammapy - A Python package for gamma-ray astronomy] (http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2015arXiv150907408D/)
 
-There's no good quick overview of IACT data analysis that I'm aware of.
-(I'm hoping the slides of this presentation will achieve that.)
+## See also
 
-A very comprehensive and good resource is [Mathieu de Naurois's habilitation thesis](http://inspirehep.net/record/1122589).
+* [ICRC 2015 proceeding: John E. Ward, et al. - The Instrument Response Function Format for the Cherenkov Telescope Array](http://arxiv.org/abs/1508.07437)
+* [Talk: Astropy, Sherpa, Gammapy] (https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/gammapy)
+* [Talk: CTA DATA overview] (https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/cta)
+* [Tutorial: Getting started with Gammapy](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/gammapy)
 
-The [H.E.S.S. 2006 Crab paper](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2006A%26A...457..899A/)
-is often cited as an overview of H.E.S.S. data analysis.
-It doesn't describe the high-level analysis part though, i.e.
-the morphology and spectral analysis techniques that are used for H.E.S.S.
-publications these days.
-
-[Berge (2007)](http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2007A%26A...466.1219B/)
-is a good reference on background modeling.

@@ -1,34 +1,41 @@
-# Tutorial - Detection and parameter estimation in gamma-ray astronomy
+# Tutorial - Statistics for gamma-ray astronomy
 
-* Presenter: Michael Schmelling
+* Presenter: [Michael Schmelling](michael-mpik) and [Christoph Deil](https://github.com/cdeil)
 * Duration: 90 min
 * Time: Tuesday, 14:00 - 15:30
 * Location: Central seminar room
 
 ## Abstract
 
-This tutorial will cover the material presented at the [statistics
+This tutorial will extend the material presented at the [statistics
 talk](https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/analysis-stats)
-on Monday, going over the theoretical concepts and computational methods again
-in more detail, and a series of examples and excercises.
+on Monday with a hands-on introduction and exercises.
 
-TODO: decide if [ROOT](https://root.cern.ch/) via the [pyroot](https://root.cern.ch/root/htmldoc/guides/users-guide/ROOTUsersGuide.html#pyroot-overview)
-interface should be used, or other Python packages like [emcee](http://dan.iel.fm/emcee/current/)
-and [iminuit](http://iminuit.readthedocs.org/en/latest/).
-
-TODO: Use some real gamma-ray data (e.g. from HESS or Fermi) of just simulate
-some data using toy models?
+Participants will be given some example data and implement their own
+likelihood function as Python functions and perform statistical
+analyses using [iminuit](http://iminuit.readthedocs.org/en/latest/).
+and [emcee](http://dan.iel.fm/emcee/current/).
 
 ## How to prepare
 
-TODO
+To participate in this tutorial, you have to have a working scientific Python
+installation (Python, IPython including notebook, iminuit, emcee and a few other
+packages).
 
-## Agenda
+The full list of packages is given in the [setup-check.ipynb](https://github.com/gammapy/PyGamma15/blob/gh-pages/tutorials/analysis-stats/setup-check.ipynb)
+IPython notebook and you can also use that to check that everything is working correctly:
 
-TODO
+    git clone https://github.com/gammapy/PyGamma15.git
+    cd PyGamma15/tutorials/analysis-stats
+    ipython notebook setup-check.ipynb
 
+It doesn't matter if you use Python 2 or 3 for this tutorial,
+everything will work the same.
 
-## Going further
+## Tutorial
 
-TODO: give some suggestions / links what participants can do
-after the tutorial to learn more ...
+Open up the  [Tutorial.ipynb](https://github.com/gammapy/PyGamma15/blob/gh-pages/tutorials/analysis-stats/Tutorial.ipynb) IPython notebook and follow along with the instructions, coding exercises.
+
+A full solution is given in [TutorialSolution.ipynb](https://github.com/gammapy/PyGamma15/blob/gh-pages/tutorials/analysis-stats/TutorialSolution.ipynb).
+This was handed out after the tutorial.
+If you're reviewing this at a later time, suggest you try implementing this yourself and not just look at the solution!

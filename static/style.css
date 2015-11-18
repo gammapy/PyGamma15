@@ -1,0 +1,51 @@
+/*
+TODO: the links to the header hash tags don't work properly
+https://www.servermule.com.au/help/bootstrap-anchors-fixed-nav/
+https://css-tricks.com/hash-tag-links-padding/
+http://stackoverflow.com/questions/4086107/html-positionfixed-page-header-and-in-page-anchors
+*/
+
+
+/*section:before h1:before h2:before {
+    display: block;
+    content: " ";
+    margin-top: -500px;
+    height: 500px;
+    visibility: hidden;
+}*/
+
+section {
+    padding-top: 64px;
+    margin-top: -64px;
+}
+body {
+    min-height: 2000px;
+    padding-top: 70px;
+}
+div.jumbotron h1 {
+    font-size: 50px;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+* {
+    font-size: 16px;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/*
+http://stackoverflow.com/a/8878666/498873
+*/
+
+@media (min-width: 979px) {
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+    }
+}

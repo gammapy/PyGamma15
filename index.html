@@ -1,243 +1,635 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>2015-MPIK-Workshop</title>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Python for gamma-ray astronomy</h1>
-      <h2 class="project-tagline">A workshop at MPIK Heidelberg, November 16 - 20, 2015</h2>
-      <a href="#about" class="btn">About</a>
-      <a href="#sessions" class="btn">Sessions</a>
-      <a href="#join" class="btn">Join</a>
-      <a href="#participants" class="btn">Participants</a>
-      <a href="https://github.com/gammapy/2015-MPIK-Workshop" class="btn">GitHub</a>
-    </section>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- <meta name="description" content=""> -->
+    <!-- <meta name="author" content=""> -->
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
 
-    <section class="main-content">
+    <title>Python for gamma-ray astronomy 2015</title>
 
-        <h3>
-            <a id="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>
-            About
-        </h3>
-        <p>
-            We are holding a week-long (November 16 - 20, 2015) workshop on Python
-            for gamma-ray astronomy at <a href=http://www.mpi-hd.mpg.de/mpi/en/start/>MPIK Heidelberg</a>.
-        </p>
-        <p>
-            Why focus on <a href="https://www.python.org/">Python</a>?
-        </p>
-        <p>
-            Python has become the most popular programming language in astronomy
-            (see <a href="http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2015arXiv150703989M/">"Software Use in Astronomy: an Informal Survey"</a>).
-            <br>
-            This is also the case in gamma-ray astronomy, where most open-source analysis codes are Python-based
-            or have a Python interface (e.g.
-            <a href="https://gammapy.readthedocs.org/en/latest/">Gammapy</a>,
-            <a href="http://naima.readthedocs.org/en/latest/">Naima</a>,
-            <a href="http://cta.irap.omp.eu/gammalib-devel/">Gammalib</a>,
-            <a href="http://cta.irap.omp.eu/ctools-devel/">ctools</a>,
-            <a href="https://threeml.stanford.edu/">3ML</a>,
-            <a href="https://github.com/fermiPy/fermipy">FermiPy</a>,
-            <a href="https://github.com/woodmd/gammatools">gammatools</a>,
-            <a href="https://github.com/kialio/VHEObserverTools">VHEObserverTools</a>,
-            <a href="https://github.com/cta-observatory/ctapipe">ctapipe</a>,
-            <a href="http://cxc.cfa.harvard.edu/sherpa/">Sherpa</a>
-            ).
-            <br>
-            Python can serve as the glue that brings together data from various
-            gamma-ray telescopes (e.g.
-            <a href="http://fermi.gsfc.nasa.gov/">Fermi</a>,
-            <a href="http://www.mpi-hd.mpg.de/hfm/HESS/">H.E.S.S.</a>,
-            <a href="http://veritas.sao.arizona.edu/">VERITAS</a>,
-            <a href="https://magic.mpp.mpg.de/">MAGIC</a>,
-            <a href="http://www.hawc-observatory.org/">HAWC</a>,
-            <a href="www.cta-observatory.org">CTA</a>
-            ) as well as astrophysical modeling codes.
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+    <!-- See http://bootswatch.com/ for available themes ... you just have to change to e.g. "paper" or "flatly" or ... -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/paper/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+</head>
 
-        <p>
-            The goal is to grow the community of of developers of the various Python codes
-            and to improve the capabilities and interoperability of the available codes.
-            <br>
-            Users that want to start using the tools for science analysis, or
-            are interested to start collaborating on multi-mission analysis
-            are also very welcome!
-        </p>
+<!-- http://getbootstrap.com/javascript/#via-data-attributes-2 -->
 
-        <h3>
-            <a id="sessions" class="anchor" href="#sessions" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-            Sessions
-        </h3>
-        <p>
-            We will start the workshow with plenary talks on Monday morning.
-            Tuesday to Thursday we have tutorial and unconference sessions.
-            On Friday we'll have a plenary lightning talk and summary session.
-        </p>
-        <p>
-            The rest of the week (Tuesday to Friday) will be largely a free-form hands-on work meeting.
-            We expect participants to form small groups to discuss and work on what they like.
-            To make this effective, we will have a board where everyone meets in the morning and
-            after lunch (for ~ 15 minutes) to propose sessions that every participant can join.
-            Every evening we'll again all meet to have a 5-minute summary of each session.
-        </p>
-        <p>
-            For users and new people that want to become contributors, we'll
-            offer a series of tutorials:            
-            For further information, see the <a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials">tutorials</a>
-            folder in the workshop repo on Github.
-        </p>
-        <p>
-            The following agenda is still somewhat preliminary.
-            If you'd like to give an talk or tutorial, please send an email
-            to <a href="mailto:Christoph.Deil@mpi-hd.mpg.de">Christoph Deil</a>.
-        </p>
-        <h4>Monday</h4>
-        <p>
-            On Monday we'll have a series of introductory presentations (most 12 + 3 minutes)
-            to give everyone an overview, and a discussion section at the end of the day.
-        </p>
-        <p>
-            Note that for several of the presentations, we have scheduled follow-up tutorials
-            that are more in-depth and hands-on later in the week.
-        <p>
-            Room: Otto-Hahn
-        </p>
-        <table class="table table-striped">
-            <thead>
-                <tr><td>Start</td><td>Duration</td><td>Presenter</td><td>Title</td></tr>
-            </thead>
-            <tbody>
-                <tr><td>9:15</td><td>15</td><td>Jim Hinton</td><td>Welcome</td></tr>
-                <tr><td>9:30</td><td>20</td><td>Christoph Deil</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/intro#basic-workshop-info">Workshop introduction</a></td></tr>
-                <tr><td>9:45</td><td>40</td><td>All</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/intro#flash-introductions">Flash introductions (1 min per participant    )</a></td></tr>
-                <tr><td>10:30</td><td>30</td><td colspan="2">Coffee</td></tr>
-                <tr><td colspan="3">Instruments session, chaired by tbd</td></tr>                    
-                <tr><td>11:00</td><td>12 + 3</td><td>TBC: Jeremy Perkins</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/fermi-basics">Fermi-LAT basics</a></td></tr>
-                <tr><td>11:15</td><td>12 + 3</td><td>TBC: Matthew Woods</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/fermi-advanced">Fermi-LAT advanced</a></td></tr>
-                <tr><td>11:30</td><td>12 + 3</td><td>Christoph Deil</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/hess">H.E.S.S. data analysis with open-source tools</a></td></tr>
-                <tr><td>11:45</td><td>12 + 3</td><td>Nathan Kelley-Hoskins</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/veritas">VERITAS data analysis with open-source tools</a></td></tr>
-                <tr><td>12:00</td><td>12 + 3</td><td>maybe, looking for a speaker</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/hawc">HAWC data analysis</a></td></tr>
-                <tr><td>12:15</td><td>12 + 3</td><td>Catherine Boisson</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/cta">CTA DATA</a></td></tr>
-                <tr><td>12:30</td><td>90</td><td colspan="2">Lunch</td></tr>
-                <tr><td colspan="3">Methods session, chaired by tbd</td></tr>                    
-                <tr><td>14:00</td><td>15 + 5</td><td>Michael Schmelling</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/analysis-stats">Detection and parameter estimation in gamma-ray astronomy</a></td></tr>
-                <tr><td>14:20</td><td>15 + 5</td><td>Regis Terrier</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/analysis-spec">1D spectrum analysis in regions (like XSPEC)</a></td></tr>
-                <tr><td>14:40</td><td>12 + 3</td><td>Axel Donath</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/analysis-image">2D image analysis in energy bands</a></td></tr>
-                <tr><td>14:55</td><td>15 + 5</td><td>Peter Eger</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/analysis-cube">3D cube analysis for Cherenkov telescopes</a></td></tr>
-                <tr><td>15:15</td><td>12 + 3</td><td>Lea Jouvin</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/analysis-bias">Bias in spectral likelihood estimators and observation grouping</a></td></tr>
-                <tr><td>15:30</td><td>30</td><td colspan="2">Coffee</td></tr>
-                <tr><td colspan="3">Codes session, chaired by Lea Jouvin</td></tr>                    
-                <tr><td>16:00</td><td>12 + 3</td><td>tbd</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/open-source">Open-source Python project development on Github</a></td></tr>
-                <tr><td>16:15</td><td>12 + 3</td><td>Karl Kosack</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/python">Why Python for gamma-ray astronomy?</a></td></tr>
-                <tr><td>16:30</td><td>12 + 3</td><td>TBC: Tom Robitaille</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/astropy">Astropy</a></td></tr>
-                <tr><td>16:45</td><td>12 + 3</td><td>tbd</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/sherpa">Sherpa</a></td></tr>
-                <tr><td>17:00</td><td>12 + 3</td><td>Christoph Deil</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/gammapy">Gammapy</a></td></tr>
-                <tr><td>17:15</td><td>12 + 3</td><td>Victor Zabalza</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/naima">SED modeling with Naima</a></td></tr>
-                <tr><td>17:30</td><td>12 + 3</td><td>Luigi Tibaldo</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/threeml">Multi-mission maximum likelihood analysis with 3ML</a></td></tr>
-                <tr><td>17:45</td><td>12 + 3</td><td>Karl Kosack</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/ctapipe">CTA Python pipeline</a></td></tr>
-                <tr><td colspan="3">Discussion session, chaired by tbd</td></tr>                    
-                <tr><td>18:00</td><td>15</td><td>looking for a speaker</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/summary">Summary. Kick-start discussion</a></td></tr>
-                <tr><td>18:15</td><td>45</td><td>all</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/minutes/plenary-monday.md">Discussion on goals for the workshop and beyond</a></td></tr>
-            </tbody>
-        </table>
+<body data-spy="scroll" data-target="#navbar">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">PyGamma15</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#about">About</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#schedule-overview">Overview</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#schedule-monday">Monday</a></li>
+                            <li><a href="#schedule-tuesday">Tuesday</a></li>
+                            <li><a href="#schedule-wednesday">Wednesday</a></li>
+                            <li><a href="#schedule-thursday">Thursday</a></li>
+                            <li><a href="#schedule-friday">Friday</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#schedule-tutorials">Tutorials</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#join">Join</a></li>
+                    <li><a href="#prepare">Prepare</a></li>
+		    <li><a href="#participants">Participants</a></li>
+		    <li><a href="#twitter">#pygamma15</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://github.com/gammapy/PyGamma15">Github</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
 
 
-        <h4>Tuesday</h4>
-        <p>
-            This schedule only lists tutorials, which take place in the central seminar room (CSR).<br>
-            In parallel the Otto-Hahn and other rooms can be used for unconference sessions (see TODO).
-        </p>
-        <table class="table table-striped">
-            <thead>
-                <tr><td>Time</td><td>Room</td><td>Presenter</td><td>Title</td></tr>
-            </thead>
-            <tbody>
-                <tr><td>9:15</td><td>CSR</td><td>tbd</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/contributing">Contributing to Python projects on Github</a></td></tr>
-                <tr><td>10:30</td><td colspan="3">Coffee</td></tr>
-                <tr><td>11:00</td><td>CSR</td><td>Karl Kosack?</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/python-programming">Python programming</a></td></tr>
-                <tr><td>12:30</td><td colspan="3">Lunch</td></tr>
-                <tr><td>14:00</td><td>CSR</td><td>Karl Kosack?</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/python-scientific">Scientific Python programming</a></td></tr>
-                <!-- <li><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/python-c">Python C extensions and profiling</a> (looking for a presenter)</li> -->
-                <tr><td>15:30</td><td colspan="3">Coffee</td></tr>
-                <tr><td>16:00</td><td>CSR</td><td>Christoph Deil</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/python-tools">Python developer tools</a></td></tr>
-                <tr><td>17:30</td><td colspan="3"><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/minutes/plenary-tuesday.md">Daily summary session (all)</a></td></tr>
-                <tr><td>18:00</td><td colspan="3">End of official program. Meet at 8 pm at Bismarckplatz to go to dinner.</td></tr>
-            </tbody>
-        </table>
+    <div class="container">
 
-        <h4>Wednesday</h4>
-        <p>
-            This schedule only lists tutorials, which take place in the central seminar room (CSR).<br>
-            In parallel the Otto-Hahn and other rooms can be used for unconference sessions (see TODO).
-        </p>
-        <table class="table table-striped">
-            <thead>
-                <tr><td>Time</td><td>Room</td><td>Presenter</td><td>Title</td></tr>
-            </thead>
-            <tbody>
-                <tr><td>9:15</td><td>CSR</td><td>TBC: Matthew Wood</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/fermi">Fermi-LAT data analysis with FermiPy</a></td></tr>
-                <tr><td>10:30</td><td colspan="3">Coffee</td></tr>
-                <tr><td>11:00</td><td>CSR</td><td>Axel Donath, Johannes King</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/gammapy">Getting started with Gammapy</a></td></tr>
-                <tr><td>12:30</td><td colspan="3">Lunch</td></tr>
-                <tr><td>14:00</td><td>CSR</td><td>Michael Schmelling</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/analysis-stats">Detection and parameter estimation in gamma-ray astronomy</a></td></tr>
-                <!-- <tr><td>14:00</td><td colspan="3">Unconference sessions</td></tr> -->
-                <tr><td>15:30</td><td colspan="3">Coffee</td></tr>
-                <tr><td>16:00</td><td colspan="3">Unconference sessions</td></tr>
-                <tr><td>17:30</td><td colspan="3"><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/minutes/plenary-wednesday.md">Daily summary session (all)</a></td></tr>
-                <tr><td>18:00</td><td colspan="3">End of official program. Open-end unconference sessions. Pizza at ~ 8 pm.</td></tr>
-            </tbody>
-        </table>
+        <section id="top">
+            <div class="jumbotron">
+                <h1>Python for gamma-ray astronomy</h1>
+                <p>A workshop at MPIK Heidelberg, November 16 - 20, 2015</p>
+            </div>
+        </section>
 
-        <h4>Thursday</h4>
-        <p>
-            This schedule only lists tutorials, which take place in the central seminar room (CSR).<br>
-            In parallel there will be discussion and coding sprint sesssions in the other rooms (see TODO).
-        </p>
-        <table class="table table-striped">
-            <thead>
-                <tr><td>Time</td><td>Room</td><td>Presenter</td><td>Title</td></tr>
-            </thead>
-            <tbody>
-                <tr><td>9:15</td><td>CSR</td><td>Karl Kosack</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/ctapipe">CTA Python pipeline</a></td></tr>
-                <tr><td>10:30</td><td colspan="3">Coffee</td></tr>
-                <tr><td>11:00</td><td>CSR</td><td>Victor Zabalza</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/tutorials/naima">SED modeling with Naima</a></td></tr>
-                <tr><td>12:30</td><td colspan="3">Lunch</td></tr>
-                <tr><td>14:00</td><td colspan="3">Unconference sessions</td></tr>
-                <tr><td>15:30</td><td colspan="3">Coffee</td></tr>
-                <tr><td>16:00</td><td colspan="3">Unconference sessions</td></tr>
-                <tr><td>17:30</td><td colspan="3"><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/minutes/plenary-thursday.md">Daily summary session (all)</a></td></tr>
-                <tr><td>18:00</td><td colspan="3">End of official program. Meet at 8 pm at Bismarckplatz to go to dinner.</td></tr>
-            </tbody>
-        </table>
+        <section id="about">
+            <h1>About</h1>
+            <p>
+                We are holding a week-long (November 16 - 20, 2015) workshop on open-source <a href="https://www.python.org/">Python</a> codes for gamma-ray astronomy at <a href=http://www.mpi-hd.mpg.de/mpi/en/start/>MPIK Heidelberg</a>.
+            </p>
+            <p>
+                Python has become the most popular programming language in astronomy (see <a href="http://labs.adsabs.harvard.edu/adsabsadsabs/abs/2015arXiv150703989M/">"Software Use in Astronomy: an Informal Survey"</a>).
+                This is also the case in gamma-ray astronomy,
+                where most open-source analysis codes are Python-based or
+                written in C/C++ but have a Python interface.
+            </p>
+            <p>
+                Open-source Python tools can serve as the glue that brings together data from various gamma-ray telescopes (e.g.
+                <a href="http://fermi.gsfc.nasa.gov/">Fermi</a>,
+                <a href="http://www.mpi-hd.mpg.de/hfm/HESS/">H.E.S.S.</a>,
+                <a href="http://veritas.sao.arizona.edu/">VERITAS</a>,
+                <a href="https://magic.mpp.mpg.de/">MAGIC</a>,
+                <a href="http://www.hawc-observatory.org/">HAWC</a>,
+                <a href="http://www.cta-observatory.org">CTA</a>,
+                <a href="https://en.wikipedia.org/wiki/INTEGRAL">INTEGRAL</a>
+                ) as well as astrophysical modeling codes.
+            </p>
+            <p>
+                The goals of this workshop are:
+                <ul>
+                    <li>to share information about existing open-source Python packages relevant for gamma-ray astronomy</li>
+                    <li>to improve their capabilities and interoperability</li>
+                    <li>to provide training in using and contributing to these packages.</li>
+                </ul>
+            </p>
+            <p>
+                The focus will be mostly on high-level science tools and methods (gamma-ray source spectrum and morphology analysis and modeling), but there will be a group of people working on lower-level analysis (data calibration, event reconstruction) as well.
+            </p>
+            <p>
+                Note that this workshop is not a Python 'boot camp' or 'school'. We expect participants to have already used Python for at least some of their projects, even if only at a beginner level, and to have an interest to contribute to open-source projects.
+            </p>
+        </section>
 
-        <h4>Friday</h4>
-        <p>
-            On Friday morning we'll have a lightning talk and workshop summary session.
-            You are welcome to stay and participate in unconference sessions in the afternoon.
-        </p>
-        <table class="table table-striped">
-            <thead>
-                <tr><td>Time</td><td>Room</td><td>Chair</td><td>Title</td></tr>
-            </thead>
-            <tbody>
-                <tr><td>9:15</td><td>Otto-Hahn</td><td>TBC: Fabio Acero</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/talks/lightning">Lightning talks</a></td></tr>
-                <tr><td>10:30</td><td colspan="3">Coffee</td></tr>
-                <tr><td>11:00</td><td>Otto-Hahn</td><td>tbd</td><td><a href="https://github.com/gammapy/2015-MPIK-Workshop/tree/gh-pages/minutes/plenary-friday.md">Workshop summary session</a></td></tr>
-                <tr><td>12:30</td><td colspan="3">Lunch</td></tr>
-                <tr><td>14:00</td><td colspan="3">Unconference sessions ... offer more specialised tutorials?</td></tr>
-                <tr><td>15:30</td><td colspan="3">Coffee</td></tr>
-                <tr><td>16:00</td><td colspan="3">Unconference sessions ... offer more specialised tutorials?</td></tr>
-                <tr><td>18:00</td><td colspan="3">Open end? Go for drinks / dinner or movie together?</td></tr>
-            </tbody>
-        </table>
-        
-        <!-- <p>
+        <section id="schedule-overview">
+            <h1>Schedule</h1>
+            <h2>Overview</h2>
+            <ul>
+                <li>
+                    The workshop will start with a series of plenary overview talks on Monday.<br>
+                    At the end of the day we'll have a discussion on the goals for the workshop and beyond.<br>
+                </li>
+                <li>
+                    There will be parallel tutorial and unconference sessions on Tuesday, Wednesday, and Thursday.
+                </li>
+                <li>
+                     On Friday we'll have plenary lightning talks and a workshop summary session in the morning.<br>
+                     There will be open-end unconference sessions in the afternoon for those that have time to stay for the whole day.
+                 </li>
+            </ul>
+            <h5>What is an unconference session?</h5>
+            <p>
+                We expect participants at this workshop to have very diverse skills (Python coding and data analysis/modeling experience)
+                and interests (e.g. gamma-ray source SED modeling or Cherenkov telescope event reconstruction or ...).
+                Making everyone sit in the same tutorials would not be effective, and coding sessions only work in small groups anyways.
+                Therefore, you can decide yourself if you want to attend tutorials, or if you prefer to organise or participate in an "unconference session" (e.g. discussion, planning, coding).
+                In order to facilitate this we will provide a board during the
+                whole conference where everyone can propose "unconference
+                sessions" or put his/her name down for an already planned session. We will assign desks/rooms.
+                At the end of each day each group will give a few-minute summary.
+            </p>
+        </section>
+
+        <section id="schedule-monday">
+            <h2>Monday</h2>
+            <p>
+                On Monday we'll have a series of introductory presentations to give everyone an overview, and a discussion section at the end of the day.
+            </p>
+            <p>
+                Note that for several of the presentations, we have scheduled follow-up tutorials that are more in-depth and hands-on later during the week.
+                <p>
+                    Room: Otto-Hahn
+                </p>
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Start</th>
+                            <th>Duration</th>
+                            <th>Presenter</th>
+                            <th>Title</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>9:15</td>
+                            <td>15</td>
+                            <td>Jim Hinton</td>
+                            <td>Welcome</td>
+                        </tr>
+                        <tr>
+                            <td>9:30</td>
+                            <td>15 + 5</td>
+                            <td>Peter Eger</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/intro-workshop">Workshop orientation</a></td>
+                        </tr>
+                        <tr>
+                            <td>9:50</td>
+                            <td>40</td>
+                            <td>All</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/intro-flash">Flash introductions</a></td>
+                        </tr>
+                        <tr>
+                            <td>10:30</td>
+                            <td>30</td>
+                            <td colspan="2">Coffee</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <strong>Methods session</strong>, chaired by Francois Brun
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11:00</td>
+                            <td>25 + 5</td>
+                            <td>Michael Schmelling</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/analysis-stats">Statistics for gamma-ray astronomy</a></td>
+                        </tr>
+                        <tr>
+                            <td>11:30</td>
+                            <td>20 + 5</td>
+                            <td>Regis Terrier</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/analysis-classical">Classical Cherenkov telescope data analysis</a></td>
+                        </tr>
+                        <tr>
+                            <td>11:55</td>
+                            <td>15 + 5</td>
+                            <td>Peter Eger</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/analysis-cube">3D cube Cherenkov telescope data analysis</a></td>
+                        </tr>
+                        <tr>
+                            <td>12:15</td>
+                            <td>15 + 5</td>
+                            <td>Lea Jouvin</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/analysis-bias">Bias in spectral likelihood estimators and observation grouping</a></td>
+                        </tr>
+                        <tr>
+                            <td>12:35</td>
+                            <td>80</td>
+                            <td colspan="2">Lunch</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <strong>Instruments session</strong>, chaired by Luigi Tibaldo
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>14:00</td>
+                            <td>15 + 5</td>
+                            <td>Jeremy Perkins</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/fermi1">Fermi-LAT data and science tools</a></td>
+                        </tr>
+                        <tr>
+                            <td>14:20</td>
+                            <td>15 + 5</td>
+                            <td>Matthew Wood</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/fermi2">Fermi-LAT pass 8, event classes, FermiPy</a></td>
+                        </tr>
+                        <tr>
+                            <td>14:40</td>
+                            <td>15 + 5</td>
+                            <td>Johannes King</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/hess">H.E.S.S. data analysis with open-source tools</a></td>
+                        </tr>
+                        <tr>
+                            <td>15:00</td>
+                            <td>15 + 5</td>
+                            <td>Nathan Kelley-Hoskins</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/veritas">VERITAS data analyses - Progress with Gammalib / ctools</a></td>
+                        </tr>
+                        <tr>
+                            <td>15:20</td>
+                            <td>15 + 5</td>
+                            <td>Catherine Boisson</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/cta">CTA DATA overview</a></td>
+                        </tr>
+                        <tr>
+                            <td>15:40</td>
+                            <td>20</td>
+                            <td colspan="2">Coffee</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <strong>Codes session<strong>, chaired by Lea Jouvin
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>16:00</td>
+                            <td>15 + 5</td>
+                            <td>Christoph Deil</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/python">Open source development and Python for gamma-ray astronomy</a></td>
+                        </tr>
+                        <tr>
+                            <td>16:20</td>
+                            <td>15 + 5</td>
+                            <td>Karl Kosack</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/ctapipe">Exploring large-scale data processing in Python with CTA</a></td>
+                        </tr>
+                        <tr>
+                            <td>16:40</td>
+                            <td>20 + 5</td>
+                            <td>Axel Donath</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/gammapy">Astropy, Sherpa, Gammapy</a></td>
+                        </tr>
+                        <tr>
+                            <td>17:05</td>
+                            <td>15 + 5</td>
+                            <td>Luigi Tibaldo</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/threeml">Multi-mission maximum likelihood analysis with 3ML</a></td>
+                        </tr>
+                        <tr>
+                            <td>17:25</td>
+                            <td>15 + 5</td>
+                            <td>Victor Zabalza</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/naima">SED modeling with Naima</a></td>
+                        </tr>
+                        <tr>
+                            <td>17:45</td>
+                            <td>15 + 5</td>
+                            <td>Joachim Hahn</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/gamera">Astrophysical modeling with Gamera</a></td>
+                        </tr>
+                        <tr>
+                            <td>18:05</td>
+                            <td>10</td>
+                            <td colspan="2">Break</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <strong>Discussion session</strong>, chaired by Christoph Deil
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>18:15</td>
+                            <td>60</td>
+                            <td>all</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/minutes/plenary-monday.md">Discussion on goals for the workshop and beyond</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+
+
+        <section id="schedule-tuesday">
+            <h2>Tuesday</h2>
+            <p>
+                This schedule only lists tutorials, which take place in the central seminar room (CSR).
+                <br> In parallel the Otto-Hahn and other rooms can be used for unconference sessions.
+            </p>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Room</th>
+                        <th>Presenter</th>
+                        <th>Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9:15</td>
+                        <td>CSR</td>
+                        <td>Axel Donath</td>
+                        <td><a href="https://github.com/gammapy/fhee">Python tutorial FHEE (part 1)</a></td>
+                    </tr>
+                    <tr>
+                        <td>10:30</td>
+                        <td colspan="3">Coffee</td>
+                    </tr>
+                    <tr>
+                        <td>11:00</td>
+                        <td>CSR</td>
+                        <td>Christoph Deil</td>
+                        <td><a href="https://github.com/gammapy/fhee">Python tutorial FHEE (part 2)</a></td>
+                    </tr>
+                    <tr>
+                        <td>12:30</td>
+                        <td colspan="3">Lunch</td>
+                    </tr>
+                    <tr>
+                        <td>14:00</td>
+                        <td>CSR</td>
+                        <td>Michael Schmelling</td>
+                        <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/analysis-stats">Statistics for gamma-ray astronomy</a></td>
+                    </tr>
+                    <tr>
+                        <td>15:30</td>
+                        <td colspan="3">Coffee</td>
+                    </tr>
+                    <tr>
+                        <td>16:00</td>
+                        <td>CSR</td>
+                        <td>Daniel Pumpe</td>
+                        <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/d3po">D3PO algorithm and IFT package</a></td>
+                    </tr>
+                    <tr>
+                        <td>17:30</td>
+                        <td colspan="3"><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/minutes/plenary-tuesday.md">Daily summary session</a> (all, chair: Victor Zabalza</td>
+                    </tr>
+                    <tr>
+                        <td>18:00</td>
+                        <td colspan="3">Open-end unconference sessions. Pizza at ~ 7 pm.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="schedule-wednesday">
+            <h2>Wednesday</h2>
+            <p>
+                This schedule only lists tutorials, which take place in the central seminar room (CSR).
+                <br> In parallel the Otto-Hahn and other rooms can be used for unconference sessions.
+            </p>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Room</th>
+                        <th>Presenter</th>
+                        <th>Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9:15</td>
+                        <td>CSR</td>
+                        <td>Matthew Wood, Jeremy Perkins</td>
+                        <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/fermi">Fermi-LAT data analysis</a></td>
+                    </tr>
+                    <tr>
+                        <td>10:30</td>
+                        <td colspan="3">Coffee</td>
+                    </tr>
+                    <tr>
+                        <td>11:00</td>
+                        <td>Multimedia room</td>
+                        <td>Luigi Tibaldo</td>
+                        <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/threeml">How to analyze multi-mission data using 3ML</a></td>
+                    </tr>
+                    <tr>
+                        <td>12:30</td>
+                        <td colspan="3">Lunch</td>
+                    </tr>
+                    <tr>
+                        <td>14:00</td>
+                        <td>CSR</td>
+                        <td>Karl Kosack</td>
+                        <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/ctapipe">CTA Python pipeline</a></td>
+                    </tr>
+                    <tr>
+                        <td>15:30</td>
+                        <td colspan="3">Coffee</td>
+                    </tr>
+                    <tr>
+                        <td>16:00</td>
+                        <td>CSR</td>
+                        <td>Johannes King</td>
+                        <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/gammapy">Getting started with Gammapy</a></td>
+                    </tr>
+                    <tr>
+                        <td>17:30</td>
+                        <td colspan="3"><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/minutes/plenary-wednesday.md">Daily summary session</a> (all, chair: tbd)</td>
+                    </tr>
+                    <tr>
+                        <td>18:00</td>
+                        <td colspan="3">End of official program. Meet at 8 pm at Bismarckplatz to go to dinner.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="schedule-thursday">
+            <h2>Thursday</h2>
+            <p>
+                This schedule only lists tutorials, which take place in the central seminar room (CSR).
+                <br> In parallel there will be discussion and coding sprint sesssions in the other rooms.
+            </p>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Room</th>
+                        <th>Presenter</th>
+                        <th>Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9:15</td>
+                        <td>CSR</td>
+                        <td>Joachim Hahn</td>
+                        <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/gamera">Astrophysical modeling with Gamera</a></td>
+                    </tr>
+                    <tr>
+                        <td>10:30</td>
+                        <td colspan="3">Coffee</td>
+                    </tr>
+                    <tr>
+                        <td>11:00</td>
+                        <td>CSR</td>
+                        <td>Victor Zabalza</td>
+                        <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/naima">SED modeling with Naima</a></td>
+                    </tr>
+                    <tr>
+                        <td>12:30</td>
+                        <td colspan="3">Lunch</td>
+                    </tr>
+                    <tr>
+                        <td>14:00</td>
+                        <td colspan="3">Unconference sessions</td>
+                    </tr>
+                    <tr>
+                        <td>15:30</td>
+                        <td colspan="3">Coffee</td>
+                    </tr>
+                    <tr>
+                        <td>16:00</td>
+                        <td colspan="3">Unconference sessions</td>
+                    </tr>
+                    <tr>
+                        <td>17:30</td>
+                        <td colspan="3"><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/minutes/plenary-thursday.md">Daily summary session</a> (all, chair: tbd)</td>
+                    </tr>
+                    <tr>
+                        <td>18:00</td>
+                        <td colspan="3">End of official program. Meet at 8 pm at Bismarckplatz to go to dinner.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="schedule-friday">
+            <h2>Friday</h2>
+            <p>
+                On Friday morning we'll have a lightning talk and workshop summary session. You are welcome to stay and participate in unconference sessions in the afternoon.
+            </p>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Room</th>
+                        <th>Chair</th>
+                        <th>Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9:15</td>
+                        <td>Otto-Hahn</td>
+                        <td><a href="https://github.com/tibaldo">Luigi Tibaldo</a></td>
+                        <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/lightning">Lightning talks</a></td>
+                    </tr>
+                    <tr>
+                        <td>10:30</td>
+                        <td colspan="3">Coffee</td>
+                    </tr>
+                    <tr>
+                        <td>11:00</td>
+                        <td>Otto-Hahn</td>
+                        <td><a href="https://github.com/cdeil">Christoph Deil</a></td>
+                        <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/minutes/plenary-friday.md">Workshop summary session</a></td>
+                    </tr>
+                    <tr>
+                        <td>12:30</td>
+                        <td colspan="3">Lunch</td>
+                    </tr>
+                    <tr>
+                        <td>14:00</td>
+                        <td colspan="3">Unconference sessions</td>
+                    </tr>
+                    <tr>
+                        <td>15:30</td>
+                        <td colspan="3">Coffee</td>
+                    </tr>
+                    <tr>
+                        <td>16:00</td>
+                        <td colspan="3">Unconference sessions</td>
+                    </tr>
+                    <tr>
+                        <td>18:00</td>
+                        <td colspan="3">Open end? Go for drinks / dinner or movie together?</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <section id="schedule-tutorials">
+                <h2>Tutorials</h2>
+                <p>
+                    Here's a summary table of the tutorials we have currently planned (subject to change a bit based on feedback from participants):
+                </p>
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Presenter</th>
+                            <th>Time</th>
+                            <th>Title</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Axel Donath</td>
+                            <td>Tuesday, 9:15 - 10:30</td>
+                            <td><a href="https://github.com/gammapy/fhee">Python tutorial FHEE (part 1)</a></td>
+                        </tr>
+                        <tr>
+                            <td>Christoph Deil</td>
+                            <td>Tuesday, 11:00 - 12:30</td>
+                            <td><a href="https://github.com/gammapy/fhee">Python tutorial FHEE (part 2)</a></td>
+                        </tr>
+                        <tr>
+                            <td>Michael Schmelling</td>
+                            <td>Tuesday, 14:00 - 15:30</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/analysis-stats">Statistics for gamma-ray astronomy</a></td>
+                        </tr>
+                        <tr>
+                            <td>Daniel Pumpe</td>
+                            <td>Tuesday, 16:00 - 17:30</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/d3po">D3PO algorithm and IFT package</a></td>
+                        </tr>
+                        <tr>
+                            <td>Matthew Wood, Jeremy Perkins</td>
+                            <td>Wednesday, 9:15 - 10:30</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/fermi">Fermi-LAT data analysis</a></td>
+                        </tr>
+                        <tr>
+                            <td>Luigi Tibaldo</td>
+			                <td>Wednesday, 11:00 - 12:30</td>
+			                <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/threeml">How to analyze multi-mission data using 3ML</a></td>
+                        </tr>
+                        <tr>
+                            <td>Karl Kosack</td>
+                            <td>Wednesday, 14:00 - 15:30</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/ctapipe">CTA Python pipeline</a></td>
+                        </tr>
+                        <tr>
+                            <td>Johannes King, Christoph Deil</td>
+                            <td>Wednesday, 16:00 - 17:30</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/gammapy">Getting started with Gammapy</a></td>
+                        </tr>
+                        <tr>
+                            <td>Joachim Hahn</td>
+                            <td>Thursday, 9:15 - 10:30</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/gamera">Astrophysical modeling with Gamera</a></td>
+                        </tr>
+                        <tr>
+                            <td>Victor Zabalza</td>
+                            <td>Thursday, 11:00 - 12:30</td>
+                            <td><a href="https://github.com/gammapy/PyGamma15/tree/gh-pages/tutorials/naima">SED modeling with Naima</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            <!-- <p>
             Discussion / coding / analysis sessions:
             
             <ol>
@@ -251,116 +643,231 @@
             </ol>
         </p> -->
 
+        </section>
 
-        <h3>
-            <a id="join" class="anchor" href="#join" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-            Join
-        </h3>
-        <p>
-            Anyone is welcome to join the workshop. There is no registration fee.<br>
-            Participants are expected to pay for travel and hotel themselves.
-        </p>
-            To register, please fill out the following Google form (TODO).
-            If you have any questions, please send an email to <a href="mailto:Christoph.Deil@mpi-hd.mpg.de">Christoph Deil</a>.
-        </p>
-        <h4>Logistics</h4>
-        <p>
-            The workshop starts on Monday morning, so you should travel to Heidelberg on Sunday, November 15.
-            On Friday, the official program ends at noon (12:30 am), so you can take a train or flight home on Friday afternoon.
-            We will still have free coding sprint sessions on Friday afternoon and go for drinks and a movie Friday evening,
-            for those that can stay in Heidelberg until Saturday.
-        </p>
-        <p>
-            There is the option to stay at the MPIK guest house (35 euro per night). 
-            The guest house is at the MPIK campus which is located on a hill outside of Heidelberg. 
-            The number of available rooms there is quite limited and in case you want to stay there, 
-            please contact me (email below) as soon as possible.
-            From the MPIK the Bus downtown takes about 15 minutes. 
-            In case you want to stay downtown we suggest to look for hotels close to Bismarckplatz, where also the busses to the MPIK leave. 
-            Please contact <a href="mailto:Peter.Eger@mpi-hd.mpg.de">Peter Eger</a>
-            if you'd like to book a room at the MPIK guest house or if you have
-            any questions concerning accomodation.
+        <section id="join">
+
+            <h1>Join</h1>
+            <h2 id="join-register">Register</h2>
+            <p>
+                Anyone is welcome to join the workshop. There is no registration fee.
+                <br> Unforunately, we cannot refund travel or accommodation expenses.
+            </p>
+            <p>
+                To register, please fill out the following Google form: <a target="_blank" href="https://docs.google.com/forms/d/1wcF0ri2qzXPtVTxU23FyWyaAtK0pwuAJ2Opypeg5aWY/viewform">Register for PyGamma15</a>.
+                <br>If you're new to Python or git/Github, please spend some time before the workshop and <a href="#prepare">Prepare</a>.
+            </p>
+            <p>
+                If you have any questions, please send an email to <a href="mailto:Christoph.Deil@mpi-hd.mpg.de">Christoph Deil</a>.
+            </p>
+            <h2 id="join-logistics">Logistics</h2>
+            <p>
+                The workshop starts on Monday morning, so you should travel to Heidelberg on Sunday, November 15. On Friday, the official program ends at noon (12.30 am), so you can take a train or flight home on Friday afternoon. We will still have free coding sprint
+                sessions on Friday afternoon and go for drinks and a movie Friday evening, for those that can stay in Heidelberg until Saturday.
+            </p>
+            <p>
+                The MPIK institute where the workshop takes place is located on a small hill outside of Heidelberg.
+                The route from MPIK to Bismarckplatz (the central place in Heidelberg) is shown <a href="https://www.google.de/maps/dir/Max-Planck-Institut+f.+Kernphysik,+Saupfercheckweg+1,+69117+Heidelberg/Bismarckplatz,+Heidelberg/@49.3961386,8.6922499,14z/data=!4m13!4m12!1m5!1m1!1s0x4797c05ed0bff2df:0x278a1dd9700fcbf7!2m2!1d8.70952!2d49.38803!1m5!1m1!1s0x4797c11c1d38e6d1:0xb1a54ec7f1402be7!2m2!1d8.6931145!2d49.4096085">here</a>.
+            </p>
+            <p>
+                The trip with bus number 39 from bus stop "Bismarckplatz" to "MPI Kernphysik"  takes 15 minutes.
+                In the morning, you can take the bus that leaves
+            Bismarckplatz at 8.43 am and arrives at MPIK at 8.57 am
+            (14 minutes), to be in time for the first session which
+            starts 9:15 am. In case you take the bus at another time,
+            note that only buses directed to K&ouml;nigsthul stop at
+            "MPI Kernphysik". However, you can also take bus 39 in the
+            direction of EMBL or Rohrbach-S&uuml;d and get off at
+            "Bierhelderhof", then walk uphill less than five minutes
+            to reach the institute.  
+                See <a href="https://www.rnv-online.de/english.html">bus schedule information</a>.
+            </p>
+            <p>
+            The image below shows a map of MPIK, including the bus
+            stop and entrance gate (building 01), the guest house
+            (buildings 05 and 06), the approximate location of the
+            workshop rooms in building 12, and the direction to the
+            EMBL canteen where we will go for lunch.  
+            </p>
+            <p><table border=0 align='center'>
+              <tr>
+                  <td align='center'><img src="static/MPIK_map.png" alt='map' height="300px"></td>
+              </tr>
+           </table>
+	   </p>
+	   <p>
+	   <b>
+	   Upon your first arrival please stop at the
+            entrance gate (building 01) and ask for a visitor pass for
+	   the whole week.
+	   </b>
+	   </p>
+            <p>
+                There is the option to stay at the guest house at MPIK (35 euro per night).
+                The number of available rooms there is quite limited and in case you want to stay there, please
+                contact <a href="mailto:Peter.Eger@mpi-hd.mpg.de">Peter Eger</a> as soon as possible.
+                In case you want to stay downtown we suggest to look for hotels close to Bismarckplatz.
+                Although, Heidelberg is quite small, so if you don't mind walking a bit you can also stay in other areas
+                such as Bergheim, Weststadt, or even on the other side of the Neckar in Neuenheim.
+                Please contact  <a href="mailto:Peter.Eger@mpi-hd.mpg.de">Peter Eger</a> if you if you have any questions concerning accomodation. 
+            </p>
+        </section>
+        <section id="prepare">
+            <h1 id="prepare">Prepare</h1>
+            <p>
+                If you're new to Python or haven't contributed to open-source project with git/GitHub, please spend some time to learn it before the workshop.
+                The tutorials at this workshop will not be at the absolute beginner level (but not very advanced either).
+            </p>
+            <p>
+                If you're unsure if this workshop is appropriate for you, here's a list of things we expect most participants to fulfill:
+                <ul>
+                    <li>
+                        A laptop with a working scientific Python setup (we
+                        recommend you to
+                        install <a href="https://www.continuum.io/downloads">Anaconda</a>,
+                        packages from Linux package managers are often very old).
+                    </li>
+                    <li>
+                        A <a href="https://github.com/">Github</a> account - it's
+                        free. Ideally, you should have successfully run git commit, branch, push, pull, maybe even merge or rebase.
+                    </li>
+                    <li>
+                        Some experience with writing Python functions and
+                        classes. You should know what a Python module and
+                        package is. The IPython terminal/notebook should be
+                        familiar.
+                    </li>
+                    <li>
+                        You should have done some X-ray or gamma-ray data analysis, ideally using a Python script.
+                    </li>
+                    <li>
+                        The tutorials will all list their "requirements for participation" separately.
+                        E.g. if you want to participate in the Fermi-LAT data
+                        analysis tutorial, you need to have the ScienceTools
+                        and FermiPy installed, but this is not needed for the rest of the workshop.
+                    </li>
+                </ul>
+            </p>
+            <p>
+                 There are many great resources freely available online that you can use to prepare for the workshop:
+                <br>
+                <ul>
+                    <li>
+                        If you don't have a scientific Python stack installed on your computer, try it out online at <a href="https://try.jupyter.org/">https://try.jupyter.org/</a> (this uses the <a href="https://jupyter.org/">Jupyter</a> notbook, formerly
+                        known as the
+                        <a href="http://ipython.org/">IPython</a> notebook) and then to install it on your machine, we recommend <a href="http://continuum.io/downloads">Anaconda</a> as a free, cross-platform (Linux, Mac, Windows) scientific Python distribution.
+                    </li>
+                    <li>
+                        The <a href="https://git-scm.com/">git</a> version control system and code development on <a href="https://github.com/">Github</a>.
+                        The <a href="https://help.github.com/categories/bootcamp/">Github bootcamp help page</a> contains links to
+                        excellent tutorials and resources.
+                    </li>
+                    <li>
+                        The <a href="http://www.scipy-lectures.org/">Scipy Lecture Notes</a> are a good tutorial to learn about
+                        <a href="http://www.numpy.org/">Numpy</a>,
+                        <a href="http://docs.scipy.org/doc/scipy-0.16.0/reference/">Scipy</a> and <a href="http://matplotlib.org/">Matplotlib</a> and scientific Python.
+                    </li>
+                    <li>
+                        The <a href="http://python4astronomers.github.io/">Practical Python for Astronomers</a> tutorials are a good resource to learn about <a href="http://www.astropy.org/">Astropy</a> and specifically the <a href="http://python4astronomers.github.io/fitting/fitting.html">Fitting and Modeling 1-D and 2-D Data</a>                        tutorial to get started with <a href="http://cxc.harvard.edu/sherpa/">Sherpa</a>.
+                    </li>
+                    <li>
+                        Since Python is very popular overall, and specifically in Astronomy, there's of course a ton of other free tutorials, books and resources available online, e.g. the <a href="http://www.astropython.org/">Python for Astronomers web site</a>                        or the <a href="http://www.astropy.org/astropy-tutorials/">Astropy tutorials</a>.
+                    </li>
+                    <li>
+                        If you are completely new to Python, and have time, you can of course read a Python programming book (there's some free books listed <a href="http://www.fullstackpython.com/best-python-resources.html">here</a>). But it turns out
+                        that for effective scientific computing and data analysis, this isn't really needed, and some basic knowledge on functions, classes and modules can get you a long way!
+                    </li>
+                </ul>
+        </section>
+
+
+        <section id="participants">
+            <h1>Participants</h1>
+            List of registered participants (sorted by first name)
+            <p>
+                <ol>
+                    <li><a href="https://github.com/marinellovic">Antonio Marinelli</a> (University of Pisa, Italy)</li>
+                    <li><a href="https://github.com/adonath">Axel Donath</a> (MPIK, Heidelberg, Germany)</li>
+                    <li><a href="https://github.com/cboisson">Catherine Boisson</a> (Observatoire Paris/Meudon, France)</li>
+                    <li><a href="https://github.com/cdeil">Christoph Deil</a> (MPIK, Heidelberg, Germany)</li>
+                    <li><a href="https://github.com/dpumpe">Daniel Pumpe</a> (MPIA, München, Germany)</li>
+                    <li><a href="https://github.com/ellisowen">Ellis Owen</a> (UCL-MSSL, Dorking, England)</li>
+                    <!-- <li>Fabio Acero (CEA, Paris, France)</li> -->
+                    <li><a href="https://github.com/frnbrun">Francois Brun</a> (CEA, Paris, France)</li>
+                    <!-- <li><a href="https://github.com/giuseppe82">Giuseppe Di Bernardo</a> (MPIA, München, Germany)</li> -->
+                    <li><a href="https://github.com/jacquemier">Jean Jacquemier</a> (LAPP, Annecy, France)</li>
+                    <li><a href="https://github.com/kialio">Jeremy Perkins</a> (GSFC, Greenbelt, MD, USA)</li>
+                    <li><a href="https://github.com/JoachimHahn/">Joachim Hahn</a> (MPIK, Heidelberg, Germany)</li>
+                    <li><a href="https://github.com/kingj90">Johannes King</a> (MPIK, Heidelberg, Germany)</li>
+                    <li><a href="https://github.com/jjlk">Julien Lefaucheur</a> (Observatoire Paris/Meudon, France)</li>
+                    <li><a href="https://github.com/jdevin">Justine Devin</a> (LUPM, Montpellier, France)</li>
+                    <li><a href="https://github.com/kosack">Karl Kosack</a> (CEA, Paris, France)</li>
+                    <!-- <li><a href="https://github.com/lmohrmann">Lars Mohrmann</a> (ECAP, Erlangen, Germany)</li> -->
+                    <li><a href="https://github.com/JouvinLea">Lea Jouvin</a> (APC, Paris, France)</li>
+                    <li><a href="https://github.com/ldivenere">Leonardo Di Venere</a> (INFN, Bari, Italy)</li>
+                    <li><a href="https://github.com/tibaldo">Luigi Tibaldo</a> (MPIK, Heidelberg, Germany)</li>
+                    <li><a href="https://github.com/massimocapasso">Massimo Capasso</a> (IAAT, Tübingen, Germany)</li>
+                    <li><a href="https://github.com/woodmd">Matthew Wood</a> (SLAC, Stanford, USA)</li>
+                    <li><a href="https://github.com/nkelhos">Nathan Kelley-Hoskins</a> (DESY, Zeuthen, Germany)</li>
+                    <li><a href="https://github.com/peger089">Peter Eger</a> (MPIK, Heidelberg, Germany)</li>
+                    <li>Pierre Aubert (LAPP, Annecy, France)</li>
+                    <li><a href="https://github.com/registerrier">Régis Terrier</a> (APC, Paris, France)</li>
+                    <li><a href="https://github.com/manganos">Salvatore Mangano</a> (CIEMAT, Madrid, Spain)</li>
+                    <li><a href="https://github.com/zblz">Victor Zabalza</a> (Leicester, UK)</li>
+                    <li><a href="https://github.com/vikasj78">Vikas Joshi</a> (MPIK, Heidelberg, Germany)</li>
+                    <li><a href="https://github.com/vmarandon">Vincent Marandon</a> (MPIK, Heidelberg, Germany)</li>
+                    <li><a href="https://github.com/XiaonaSun">Xiaona Sun</a> (MPIK, Heidelberg, Germany)</li>
+                </ol>
+            </p>
+		</section>
+
+	<section id="twitter">
+		<h1>#pygamma15 on Twitter</h1>
+		<p>
+		<ol>
+	<a class="twitter-timeline"  href="https://twitter.com/hashtag/pygamma15" data-widget-id="666209476366745600">#pygamma15 Tweets</a>
+            <script>!function(d,s,id){var
+		  js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		  </ol></p>
+	</section>
+
+        <section id="sponsors">
+            <h1>Sponsors</h1>
+            <p>This workshop is kindly sponsored by:</p>
+            <p><table border=0 align='center'>
+              <tr>
+                  <td align='center'><img src="static/GitHub_Logo.png" alt='github logo' height="100px"></td>
+                  <td align='center'><img src="static/Octocat.jpg" alt='octocat' height="100px"></td>
+              </tr>
+          </table>
+          </p>
+        </section>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <hr>
+            <p class="text-muted">
+                Organisers:
+                <a href="https://github.com/cdeil">Christoph Deil</a>,
+                <a href="https://github.com/peger089">Peter Eger</a>,
+                <a href="https://github.com/adonath">Axel Donath</a>,
+                <a href="https://github.com/kingj90">Johannes King</a>,
+                <a href="https://github.com/tibaldo">Luigi Tibaldo</a>.
+                <br>
+                This webpage and all workshop content is in the <a href="https://github.com/gammapy/PyGamma15">PyGamma15</a> repo on Github.
+                <br>
+                <a href="#top">Back to top</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</body>
+
             
-            Here is a link to <a href="https://www.google.de/maps/dir/Max-Planck-Institut+f.+Kernphysik,+Saupfercheckweg+1,+69117+Heidelberg/Bismarckplatz,+Heidelberg/@49.3961386,8.6922499,14z/data=!4m13!4m12!1m5!1m1!1s0x4797c05ed0bff2df:0x278a1dd9700fcbf7!2m2!1d8.70952!2d49.38803!1m5!1m1!1s0x4797c11c1d38e6d1:0xb1a54ec7f1402be7!2m2!1d8.6931145!2d49.4096085">google maps</a> showing the route from the MPIK to Bismarckplatz.
-        </p>
-        <h4>Prepare</h4>
-        <p>
-            If you're new to <a href="https://www.python.org/">Python</a>,
-            we recommend that you spend some time to learn it before the workshop
-            in the context of scientific computing and Astronomy.<br>    
-            <ul>
-                <li>
-                    The <a href="https://scipy-lectures.github.io/">Python Scientific Lecture Notes</a>
-                    are a good tutorial to learn about 
-                    <a href="http://www.numpy.org/">Numpy</a>,
-                    <a href="http://docs.scipy.org/doc/scipy-0.16.0/reference/">Scipy</a>
-                    and <a href="http://matplotlib.org/">Matplotlib</a>.
-                </li>
-                <li>
-                    The <a href="http://python4astronomers.github.io/">Practical Python for Astronomers</a>
-                    tutorials are a good resource to learn about <a href="http://www.astropy.org/">Astropy</a>
-                    and specifically the <a href="http://python4astronomers.github.io/fitting/fitting.html">Fitting and Modeling 1-D and 2-D Data</a> tutorial to get started with <a href="http://cxc.harvard.edu/sherpa/">Sherpa</a>.
-                </li>
-                <li>
-                    Since Python is very popular overall, and specifically in Astronomy, there's of course
-                    a ton of other free tutorials, books and resources available online, e.g.
-                    the <a href="http://www.astropython.org/">Python for Astronomers web site</a>
-                    or the <a href="http://www.astropy.org/astropy-tutorials/">Astropy tutorials</a>.
-                </li>
-                <li>
-                    If you don't have a scientific Python stack installed on your computer,
-                    try it out online at <a href="https://try.jupyter.org/">https://try.jupyter.org/</a>
-                    (this uses the <a href="https://jupyter.org/">Jupyter</a> notbook, formerly known as the 
-                    <a href="http://ipython.org/">IPython</a> notebook) and then to install it on your machine, we recommend <a href="http://continuum.io/downloads">Anaconda</a> as a free,
-                    cross-platform (Linux, Mac, Windows) scientific Python distribution.
-                </li>
-                <li>
-                    If you are completely new to Python, and have time, you can of course read a Python programming book
-                    (there's some free books listed <a href="http://www.fullstackpython.com/best-python-resources.html">here</a>).
-                    But it turns out that for effective scientific computing and data analysis,
-                    this isn't really needed, and some basic knowledge on functions, classes and modules
-                    can get you a long way!
-                </li>
-                <li>
-                    Gamma-ray astronomy specific tutorials will be prepared for the workshop,
-                    although of course you can start learning about the existing codes using their normal documentation.
-                </li>
-            </ul>
-        </p>
-        <p>
-            If you're thinking about contributing to one of the open-source projects
-            discussed at this workshop, you should learn a bit about the
-            <a href="https://git-scm.com/">git</a> version control system
-            and code development on <a href="https://github.com/">Github</a>.
-            The <a href="https://help.github.com/categories/bootcamp/">Github bootcamp help page</a>
-            contains links to excellent tutorials and resources.
-        </p>
-
-        <h3>
-            <a id="participants" class="anchor" href="#participants"><span class="octicon octicon-link"></span></a>
-            Participants
-        </h3>
-        List of registered participants (sorted by first name)
-        <p>
-            <ol>
-                <li>Axel Donath (MPIK, Heidelberg, Germany)</li>
-                <li>Catherine Boisson (Observatoire Paris/Meudon, France)</li>
-                <li>Christoph Deil (MPIK, Heidelberg, Germany)</li>
-                <li>Fabio Acero (CEA, Paris, France)</li>
-                <li>Jeremy Perkins (GSFC, Greenbelt, MD, USA)</li>
-                <li>Johannes King (MPIK, Heidelberg, Germany)</li>
-                <!-- <li>TBC: Julien Lefaucheur (Observatoire Paris/Meudon, France)</li> -->
-                <li>Karl Kosack (CEA, Paris, France)</li>
-                <li>Lea Jouvin (APC, Paris, France)
-                <li>Luigi Tibaldo (MPIK, Heidelberg, Germany)</li>
-                <li>TBC: Matthew Wood (SLAC, Stanford, USA)</li>
-                <li>Nathan Kelley-Hoskins (DESY, Zeuthen, Germany)</li>
-                <li>Peter Eger (MPIK, Heidelberg, Germany)</li>
-                <li>Regis Terrier (APC, Paris, France)</li>
-                <li>Victor Zabalza (Leicester, UK)</li>
-                <li>Vikas Joshi (MPIK, Heidelberg, Germany)</li>
-            </ol>    
-        </p>          
-    </section>
-  </body>
+          
+	
 </html>

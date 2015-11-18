@@ -1,0 +1,17 @@
+# Crab spectrum flux points measured by H.E.S.S. in 2006
+# Taken from table 5 in http://adsabs.harvard.edu/abs/2006A%26A...457..899A
+# Concerning the flux error, we'll just take the upper error,
+# i.e. assume symmetric Gaussian PDF on the flux values
+energy      flux  flux_err
+ 0.519  1.81e-10  0.06e-10
+ 0.729  7.27e-11  0.20e-11
+ 1.06   3.12e-11  0.09e-11
+ 1.55   1.22e-11  0.04e-11
+ 2.26   4.60e-12  0.18e-12
+ 3.3    1.53e-12  0.08e-12
+ 4.89   6.35e-13  0.39e-13
+ 7.18   2.27e-13  0.18e-13
+10.4    6.49e-14  0.77e-14
+14.8    1.75e-14  0.33e-14
+20.9    7.26e-15  1.70e-15
+30.5    9.58e-16  5.60e-16

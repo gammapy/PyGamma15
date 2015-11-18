@@ -1,20 +1,9 @@
-# Talk - Why Python for gamma-ray astronomy?
+# Talk - Open source development and Python for gamma-ray astronomy
 
-* Presenter: [Karl Kosack](https://github.com/kosack/)
-* Duration: 12 + 3 min
+* Presenter: [Christoph Deil](https://github.com/cdeil/)
+* Duration: 15 + 5 min
 
 ## Abstract
 
-Explain why Python makes sense for gamma-ray astronomy.
-Give an high-level overview of the language (Py 2 / 3),
-Scipy packages (Numpy, Scipy, Matplotlib, Numba) and tools (IPython, pytest, ...)
-
-## Outline
-
-* Language
-* Packages
-* Tools
-
-## References
-
-* See tutorials on Tuesday
+A high-level overview to open-source software development
+and Python for gamma-ray astronomy.
