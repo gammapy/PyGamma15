@@ -24,7 +24,7 @@ To install in a conda enviroment (Python 2 or 3), do as follows:
 conda config --add channels astropy # might not be needed if you did it
 yesterday
 conda install naima ipywidgets
-pip install triangle_plot
+pip install triangle_plot corner
 ```
 
 
