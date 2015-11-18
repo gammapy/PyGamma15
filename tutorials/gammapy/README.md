@@ -30,6 +30,7 @@ Install Gammapy 0.5 and Sherpa 4.7 in a fresh Python 2.7 anaconda environment wi
 ```
 conda create -n gammapy python=2.7 
 source activate gammapy
+conda config --add channels sherpa
 conda install sherpa pyfits
 conda install naima scipy matplotlib ipython-notebook cython click pyyaml
 ```
