@@ -18,11 +18,11 @@ their spectra.
 * Install naima following the instructions [in the naima
   docs](http://naima.readthedocs.org/en/latest/installation.html).
 
-To install in a conda enviroment (Python 2 or 3), do as follows:
+To install in a conda enviroment (Python 2 or 3), do as follows (first line
+might not be necessary if you did it yesterday):
 
-```
-conda config --add channels astropy # might not be needed if you did it
-yesterday
+```bash
+conda config --add channels astropy
 conda install naima ipywidgets
 pip install triangle_plot corner
 ```
