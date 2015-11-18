@@ -1,6 +1,6 @@
 # Tutorial - Getting started with Gammapy
 
-* Presenter: [Johannes King](https://github.com/kingj90), [Christoph Deil](https://github.com/cdeil)
+* Presenter: [Johannes King](https://github.com/kingj90)
 * Duration: 90 min
 * Time: Wednesday, 16:00 - 17:30
 * Location: Central seminar room
@@ -20,13 +20,16 @@ If time allows, we'll take some Fermi-LAT high-energy data and make
 a Galactic plane survey TS image, run a source detection method and
 compare the result to the official 2FHL catalog.
 
-Another possibilty is to have a look in the code together and discuss how contributions to Gammapy can be most efficiently.
+Another possibility is to have a look in the code together and discuss how
+contributions to Gammapy can be most efficiently.
 
 ## How to prepare
 
 You need a python environment with the standard packages installed (numpy, astropy, ...). For a full list of dependencies check the Gammapy [docs](http://gammapy.readthedocs.org/en/latest/install.html). In order to install the development version of Gammapy just clone [this] git repository(https://github.com/gammapy/gammapy) and install it by typing ``python setup.py install``.
 
-For the spectral analysis example a sherpa installation is needed. You can try installing it following [these](http://cxc.harvard.edu/contrib/sherpa47/) instrucions.
+For the spectral analysis example a sherpa installation is needed. You can try
+installing it following [these](http://cxc.harvard.edu/contrib/sherpa47/)
+instructions.
 
 You can also clone the [gammapy-extra](https://github.com/gammapy/gammapy-extra) repository. It contains the example dataset that will be used in the tutorial.
 
