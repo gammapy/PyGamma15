@@ -29,6 +29,9 @@ conda install naima ipywidgets
 pip install triangle_plot corner
 ```
 
+* Clone this repository (http://github.com/gammapy/PyGamma15) to your computer
+  (or do a `git pull` if you already had it cloned), and open an ipython notebook
+  server in the directory `tutorials/naima`.
 
 ## Agenda
 
@@ -36,3 +39,10 @@ pip install triangle_plot corner
   use
 * Prepare and execute an MCMC run.
 * Analyse the results of the run.
+
+## Contributing
+
+If you find something in `naima` that you would like to be different, or some
+desired feature missing, do not hesitate to report it in the [issue
+tracker](http://github.com/zblz/naima/issues) or code it yourself and do a PR
+(contact me if you want help getting started with how naima works internally).
