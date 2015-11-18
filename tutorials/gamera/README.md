@@ -7,15 +7,42 @@
 
 ## Abstract
 
-What will be covered ...
+In this tutorial you will learn step-by-step to use gappa in order to
+ * calculate an SED from a particle distribution
+ * perform a particle evolution in the presence of energy losses
+ * calculate some galactic gas densities
+ * tinker with the galactic spiral arm structure
+ * dice some random galactic pulsar positions
 
 ## How to prepare
 
-How to install software?
-How to check if install is OK and everything is ready for tutorial?
+Installation preparation:
 
-## Agenda
+**on Ubuntu**
 
+using apt::
 
+    $ sudo apt-get install libgsl0ldbl libgsl0-dev python-dev swig
+    
+**on MacOS**
+using `homebrew <http://brew.sh/>`_ ::
 
-## Going further
+    $ brew install gsl swig
+    
+Installation::
+
+  $ git clone https://github.com/JoachimHahn/GAMERA.git
+    
+cd into directory, then run::
+
+  $ make gappa
+  
+after that, cd in the lib/ directore::
+
+  $ cd lib
+  
+now it gets a bit shitty  (Sorry!). You have to copy the ipython notebook to
+your current directory (./lib/). After that, run ::
+
+  & ipython notebook gappa-tutorial.ipynb
+
