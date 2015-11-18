@@ -37,12 +37,16 @@ cd into directory, then run:
 
   $ make gappa
   
-after that, cd in the lib/ directore:
+after that, cd in the lib/ directory:
 
   $ cd lib
   
 now it gets a bit shitty  (Sorry!). You have to copy the ipython notebook to
-your current directory (./lib/). After that, run :
+your current directory (./lib/):
+    
+  $ cp /path/to/where/you/downloaded/it/gappa-tutorial.ipynb.
+
+After that, run :
 
   & ipython notebook gappa-tutorial.ipynb
 
