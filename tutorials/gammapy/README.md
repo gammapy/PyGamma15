@@ -24,7 +24,9 @@ Another possibilty is to have a look in the code together and discuss how contri
 
 ## How to prepare
 
-Since Gammapy uses Sherpa to perform the spectral fitting a Python2.7 environment is needed for this tutorial. Please download this [conda environment](https://github.com/gammapy/2015-MPIK-Workshop/blob/gh-pages/tutorials/gammapy/gammapy_pygamma15.yaml) and run ``conda env create -f gammapy_pygamma15.yaml``. You can then clone the Gammapy git [repository](https://github.com/gammapy/gammapy) and install it using the ``setup.py``.
+You need a python environment with the standard packages installed (numpy, astropy, ...). For a full list of dependencies check the Gammapy [docs](http://gammapy.readthedocs.org/en/latest/install.html). In order to install the development version of Gammapy just clone [this] git repository(https://github.com/gammapy/gammapy) and install it by typing ``python setup.py install``.
+
+For the spectral analysis example a sherpa installation is needed. You can try installing it following [these](http://cxc.harvard.edu/contrib/sherpa47/) instrucions.
 
 You can also clone the [gammapy-extra](https://github.com/gammapy/gammapy-extra) repository. It contains the example dataset that will be used in the tutorial.
 
