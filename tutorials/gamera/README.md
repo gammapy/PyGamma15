@@ -20,29 +20,29 @@ Installation preparation:
 
 **on Ubuntu**
 
-using apt::
+using apt:
 
     $ sudo apt-get install libgsl0ldbl libgsl0-dev python-dev swig
     
 **on MacOS**
-using `homebrew <http://brew.sh/>`_ ::
+using e.g. homebrew:
 
     $ brew install gsl swig
     
-Installation::
+Installation:
 
   $ git clone https://github.com/JoachimHahn/GAMERA.git
     
-cd into directory, then run::
+cd into directory, then run:
 
   $ make gappa
   
-after that, cd in the lib/ directore::
+after that, cd in the lib/ directore:
 
   $ cd lib
   
 now it gets a bit shitty  (Sorry!). You have to copy the ipython notebook to
-your current directory (./lib/). After that, run ::
+your current directory (./lib/). After that, run :
 
   & ipython notebook gappa-tutorial.ipynb
 
