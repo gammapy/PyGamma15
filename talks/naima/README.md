@@ -3,6 +3,9 @@
 * Presenter: [Victor Zabalza](https://github.com/zblz/)
 * Duration: 15 + 5 min
 
+* Slides: [naima-talk-PyGamma15.pdf](
+  https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/naima/naima-talk.pdf)
+
 ## Abstract
 
 The ultimate goal when observing and analyzing the non-thermal spectra from
