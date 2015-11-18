@@ -48,5 +48,5 @@ your current directory (./lib/):
 
 After that, run :
 
-  & ipython notebook gappa-tutorial.ipynb
+  $ ipython notebook gappa-tutorial.ipynb
 
