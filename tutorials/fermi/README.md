@@ -11,10 +11,6 @@ This tutorial teaches you to run Fermi-LAT Pass 8 data analyses
 via the [Fermi ScienceTools](http://fermi.gsfc.nasa.gov/ssc/data/analysis/)
 and [FermiPy](https://github.com/fermiPy/fermipy).
 
-TODO: does it make sense to also cover some other Python wrapper
-(see http://fermi.gsfc.nasa.gov/ssc/data/analysis/user/) or does
-FermiPy provide all the functionality people usually want?
-
 ## How to prepare
 
 Full set of installation instructions are [here](https://github.com/fermiPy/fermipy/blob/master/notebooks/Installation.ipynb).
@@ -25,7 +21,12 @@ These instructions describe how to do the following:
 - Install pip.
 - Install fermipy and its python dependencies.
 
-Note that the Fermi STs can only be used with the python installation that comes packaged with the STs.  
+Note that the fermipy and the Fermi STs can only be used with the
+python installation that comes packaged with the STs.
+
+If you have fermipy and the STs installed you should be able to run
+the notebooks in the tutorial directory by launching an ipython
+notebook session.
 
 ## Agenda
 
@@ -35,5 +36,7 @@ Note that the Fermi STs can only be used with the python installation that comes
 
 ## Going further
 
-TODO: give some suggestions / links what participants can do
-after the tutorial to learn more ...
+Additional documentation on running LAT analysis is available in the
+[FSSC pages](http://fermi.gsfc.nasa.gov/ssc/data/analysis/).
+
+
