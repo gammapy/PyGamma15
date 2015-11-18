@@ -13,7 +13,9 @@ their spectra.
 
 ## How to prepare
 
-* Go over the slides from the [SED modeling with Naima talk](https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/naima) from Monday.
+* Go over the slides from the [SED modeling with Naima
+  talk](https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/naima) from
+  Monday and the references given there.
 
 * Install naima following the instructions [in the naima
   docs](http://naima.readthedocs.org/en/latest/installation.html).
@@ -30,15 +32,7 @@ pip install triangle_plot corner
 
 ## Agenda
 
-
-* Introduce the astrophysical sources to be analysed.
-* Overview of the tools available in naima.
-* First analysis with the interactive fitter.
+* Overview of the radiative models available in naima and walkthrough of their
+  use
 * Prepare and execute an MCMC run.
-* Analyse the results of the run
-* How to report the results and astrophysical implication.
-
-## Going further
-
-TODO: give some suggestions / links what participants can do
-after the tutorial to learn more ...
+* Analyse the results of the run.
