@@ -4,7 +4,7 @@
 * Duration: 15 + 5 min
 
 * Slides: [naima-talk-PyGamma15.pdf](
-  https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/naima/naima-talk.pdf)
+  https://github.com/gammapy/PyGamma15/blob/gh-pages/talks/naima/naima-talk-PyGamma15.pdf)
 
 ## Abstract
 
