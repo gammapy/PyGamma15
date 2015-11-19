@@ -29,24 +29,20 @@ using e.g. homebrew:
 
     $ brew install gsl swig
     
-Installation:
+Installation of GAMERA and the gammapy Python interface:
 
-  $ git clone https://github.com/JoachimHahn/GAMERA.git
-    
-cd into directory, then run:
+    $ git clone https://github.com/JoachimHahn/GAMERA.git
+    $ cd GAMERA
+    $ make gappa
 
-  $ make gappa
+The GAMERA / gammapy build system doesn't have "install" implemented yet.
+For now you should start Python from the `lib` directory and then you should be able to import `gappa`
+
+    $ cd lib
+    $ python -c 'import gappa'
   
-after that, cd in the lib/ directory:
+To start the tutorial IPython notebook do this in the `lib` directory:
 
-  $ cd lib
-  
-now it gets a bit shitty  (Sorry!). You have to copy the ipython notebook to
-your current directory (./lib/):
-    
-  $ cp /path/to/where/you/downloaded/it/gappa-tutorial.ipynb.
-
-After that, run :
-
-  $ ipython notebook gappa-tutorial.ipynb
+    $ wget https://github.com/gammapy/PyGamma15/raw/gh-pages/tutorials/gamera/gappa-tutorial.ipynb
+    $ ipython notebook gappa-tutorial.ipynb
 
