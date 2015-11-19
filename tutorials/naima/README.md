@@ -13,25 +13,36 @@ their spectra.
 
 ## How to prepare
 
-* Go over the slides from the [SED modeling with Naima talk](https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/naima) from Monday.
+* Go over the slides from the [SED modeling with Naima
+  talk](https://github.com/gammapy/PyGamma15/tree/gh-pages/talks/naima) from
+  Monday and the references given there.
 
 * Install naima following the instructions [in the naima
   docs](http://naima.readthedocs.org/en/latest/installation.html).
 
-* TODO: add a link to an example run to check that everything is installed
-  correctly.
+To install in a conda enviroment (Python 2 or 3), do as follows (first line
+might not be necessary if you did it yesterday):
+
+```bash
+conda config --add channels astropy
+conda install naima ipywidgets
+pip install triangle_plot corner
+```
+
+* Clone this repository (http://github.com/gammapy/PyGamma15) to your computer
+  (or do a `git pull` if you already had it cloned), and open an ipython notebook
+  server in the directory `tutorials/naima`.
 
 ## Agenda
 
-
-* Introduce the astrophysical sources to be analysed.
-* Overview of the tools available in naima.
-* First analysis with the interactive fitter.
+* Overview of the radiative models available in naima and walkthrough of their
+  use
 * Prepare and execute an MCMC run.
-* Analyse the results of the run
-* How to report the results and astrophysical implication.
+* Analyse the results of the run.
 
-## Going further
+## Contributing
 
-TODO: give some suggestions / links what participants can do
-after the tutorial to learn more ...
+If you find something in `naima` that you would like to be different, or some
+desired feature missing, do not hesitate to report it in the [issue
+tracker](http://github.com/zblz/naima/issues) or code it yourself and do a PR
+(contact me if you want help getting started with how naima works internally).
