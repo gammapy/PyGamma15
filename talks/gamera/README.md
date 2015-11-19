@@ -18,5 +18,5 @@ It has been wrapped to a python package, GAPPA, which makes GAMERA now accessibl
 
 ## References
 
-https://github.com/JoachimHahn/GAMERA
-http://joachimhahn.github.io/GAMERA/tutorial.html
+* https://github.com/JoachimHahn/GAMERA
+* http://joachimhahn.github.io/GAMERA/tutorial.html
