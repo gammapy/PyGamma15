@@ -1,8 +1,9 @@
 # Python web apps with Flask
 
-- There's many web frameworks. In Python probably the most-used is [Django](https://www.djangoproject.com/) (everything included), the opposite is something like [bottle](http://bottlepy.org/docs/dev/index.html) (single file `bottle.py`). Like bottle, Flask is a "micro framework", i.e. minimalistic core and lots of extensions (separate Python modules you can install, e.g. `pip install flask-wtf` for form handling, [flask-wtf](https://flask-wtf.readthedocs.org/en/latest/))
+- There's many web frameworks. In Python probably the most-used is [Django](https://www.djangoproject.com/) (everything included), the opposite is something like [bottle](http://bottlepy.org/docs/dev/index.html) (single file `bottle.py`). 
 - [Flask](http://flask.pocoo.org/) - web development, one drop at a time.
-- The template engine is [Jinja](http://jinja.pocoo.org/).
+Like bottle, Flask is a "micro framework", i.e. minimalistic core and lots of extensions (separate Python modules you can install, e.g. `pip install flask-wtf` for form handling, [flask-wtf](https://flask-wtf.readthedocs.org/en/latest/))
+- The template engine of flask is [Jinja](http://jinja.pocoo.org/).
 When people say "Jinja", they mean "Jinja 2".
 You should always `pip install jinja2` and `import jinja2`
 - If you'd like to get started, I can recommend this:
