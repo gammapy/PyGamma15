@@ -36,6 +36,6 @@ speaker will receive as prize the book ["Effective Computation in Physics"](http
 * <a href="https://github.com/kosack">Karl Kosack</a> - scikit-learn: Machine Learning in Python
 * <a href="https://github.com/kosack">Karl Kosack</a> - How to Debug your Program
 * <a href="https://github.com/akira-okumura">Akira Okumura</a> - A Python Use Example in CTA Hardware Development
-* <a href="https://github.com/cdeil">Christoph Deil</a> - Flask: a Micro Web Development Tool for Python
+* <a href="https://github.com/cdeil">Christoph Deil</a> - [Python web apps with Flask](https://github.com/gammapy/PyGamma15/blob/gh-pages/talks/lightning/flask.md)
 * <a href="https://github.com/zblz">Victor Zabalza</a> - xray: N-D Labeled Arrays and Datasets in Python
 * <a href="https://github.com/woodmd">Matthew Wood</a> - A Standard Format for Spectral Modeling Results?

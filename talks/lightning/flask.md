@@ -20,4 +20,4 @@ put an error in the view function and template
     an app to configure and launch analyses or to browse analysis
     results (e.g. change energy range and make a new image, or go through run-per-run IRFs to check that the run quality is OK)
 - If you'd like to get started, I can recommend this:
-read the first ~ 40 pages of the [Flask book from O'Reilly](http://flaskbook.com/) or read the first few posts from the [Flask mega tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) by Miguel Grinberg. All the code is available at https://github.com/miguelgrinberg/flasky ... you can checkout the git tags (`2a`, `2b`, `3a`, ...) and play with the examples to learn!
+read the first ~ 40 pages of the [Flask book from O'Reilly](http://flaskbook.com/) or read the first few posts from the [Flask mega tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) by Miguel Grinberg. All the code is available at https://github.com/miguelgrinberg/flasky . You can checkout the git tags (`2a`, `2b`, `3a`, ...) and play with the examples to learn!
