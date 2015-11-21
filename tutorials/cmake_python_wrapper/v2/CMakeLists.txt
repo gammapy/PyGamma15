@@ -1,5 +1,5 @@
 project (foo_wrapper)
-cmake_minimum_required(VERSION 3.4)
+cmake_minimum_required(VERSION 3.0)
 
 set (PACKAGE_VERSION 1.0)
 
