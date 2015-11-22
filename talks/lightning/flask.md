@@ -1,4 +1,4 @@
-# Python web apps with Flask
+# Christoph Deil - Python web apps with Flask
 
 - There's many web frameworks. In Python probably the most-used is [Django](https://www.djangoproject.com/) (everything included), the opposite is something like [bottle](http://bottlepy.org/docs/dev/index.html) (single file `bottle.py`). 
 - [Flask](http://flask.pocoo.org/) - web development, one drop at a time.
