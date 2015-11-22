@@ -33,7 +33,8 @@ speaker will receive as prize the book ["Effective Computation in Physics"](http
 
 ## Talks
 
-* <a href="https://github.com/kosack">Karl Kosack</a> - scikit-learn: Machine Learning in Python
+* <a href="https://github.com/kosack">Karl Kosack</a> - <a href="http://scikit-learn.org">scikit-learn</a>: Machine Learning in Python
+ * see tutorial at  <a href="https://github.com/cea-irfu-sap/CEAPythonWorkshopForAstronomers/blob/master/12-Advanced-Packages/02-sklearn.v3.ipynb"> this link (CEA Python Workshop for Astronomers)</a>
 * <a href="https://github.com/kosack">Karl Kosack</a> - How to Debug your Program
 * <a href="https://github.com/akira-okumura">Akira Okumura</a> - A Python Use Example in CTA Hardware Development
 * <a href="https://github.com/cdeil">Christoph Deil</a> - [Python web apps with Flask](https://github.com/gammapy/PyGamma15/blob/gh-pages/talks/lightning/flask.md)
