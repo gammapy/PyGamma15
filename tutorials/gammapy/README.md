@@ -47,8 +47,8 @@ You can also clone the [gammapy-extra](https://github.com/gammapy/gammapy-extra)
 - Make sure everyone has Gammapy installed ([docs](https://gammapy.readthedocs.org/en/latest/install.html))
 - Basic examples showing functions and class in Gammapy ([docs](https://gammapy.readthedocs.org/en/latest/getting-started.html))
 - Spectrum analysis using a command line tools ([docs](https://gammapy.readthedocs.org/en/latest/spectrum/index.html))
-- Creating an image using a Gammapy example [notebook](https://github.com/gammapy/gammapy-extra/blob/master/notebooks/spectral_analysis.ipynb)
-- Interactively use the Spectral analysis class a Gammapy example [notebook](https://github.com/gammapy/gammapy-extra/blob/master/notebooks/gammapy-image-crab.ipynb)
+- Interactively use the Spectral analysis class a Gammapy example [notebook](https://github.com/gammapy/gammapy-extra/blob/master/notebooks/spectral_analysis.ipynb)
+- Creating an image using a Gammapy example [notebook](https://github.com/gammapy/gammapy-extra/blob/master/notebooks/gammapy-image-crab.ipynb)
 
 ## Going further
 
