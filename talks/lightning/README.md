@@ -37,8 +37,8 @@ speaker will receive as prize the book ["Effective Computation in Physics"](http
  * see tutorial at  <a href="https://github.com/cea-irfu-sap/CEAPythonWorkshopForAstronomers/blob/master/12-Advanced-Packages/02-sklearn.v3.ipynb"> this link (CEA Python Workshop for Astronomers)</a>
 * <a href="https://github.com/kosack">Karl Kosack</a> - How to Debug your Program
   A demo of how to debug Python programs with [ipython](http://ipython.org/) and [ipdb](https://pypi.python.org/pypi/ipdb).
-* <a href="https://github.com/akira-okumura">Akira Okumura</a> - A Python Use Example in CTA Hardware Development
+* <a href="https://github.com/akira-okumura">Akira Okumura</a> - [A Python Use Example in CTA Hardware Development](https://github.com/gammapy/PyGamma15/blob/gh-pages/talks/lightning/2015-11-20_PyGamma15_Okumura.pdf)
 * <a href="https://github.com/cdeil">Christoph Deil</a> - [Python web apps with Flask](https://github.com/gammapy/PyGamma15/blob/gh-pages/talks/lightning/flask.md)
 * <a href="https://github.com/zblz">Victor Zabalza</a> - [xray](http://xray.readthedocs.org/en/stable/): N-D Labeled Arrays and Datasets in Python
 * <a href="https://github.com/woodmd">Matthew Wood</a> - A Standard Format for Spectral Modeling Results?
-  A report on the session from Thursday afternoon, where this was started: https://github.com/gammapy/data-format-specs/tree/master/spatial-spectral-model
+  A report on the session from Thursday afternoon, where this was started: https://github.com/gammapy/gamma-astro-data-formats
