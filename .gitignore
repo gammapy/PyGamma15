@@ -4,3 +4,9 @@
 *.pyc
 __pycache__
 .ipynb_checkpoints
+build
+*.tar.gz
+
+tutorials/fermi/draco/
+tutorials/fermi/ic443/
+tutorials/fermi/pg1553/
