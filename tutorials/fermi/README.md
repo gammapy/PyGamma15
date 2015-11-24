@@ -24,7 +24,8 @@ Then follow the fermipy installation instructions on this [page](http://fermipy.
 As part of the installation process you will clone the fermipy git repository which contains the notebooks for this tutorial.  You can launch any of the notebooks by going to the notebooks directory and executing `ipython notebook` followed by the notebook name:
 
 ```bash
-cd notebooks # From root directory of fermipy git repo
+git clone https://github.com/fermiPy/fermipy.git
+cd fermipy/notebooks
 ipython notebook PG\ 1553+113.ipynb
 ```
 
