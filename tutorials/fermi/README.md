@@ -13,20 +13,22 @@ and [FermiPy](https://github.com/fermiPy/fermipy).
 
 ## How to prepare
 
-Full set of installation instructions are [here](https://github.com/fermiPy/fermipy/blob/master/notebooks/Installation.ipynb).
+Install the Fermi STs as described [here](http://fermi.gsfc.nasa.gov/ssc/data/analysis/software/).  It is recommended to use the binary STs distribution.  Here are the respective tarballs for OSX and Scientific Linux distributions of STs v10-00-05 (the currently recommended release for Pass 8 analysis):
 
-These instructions describe how to do the following:
+*Scientific Linux*: [ScienceTools-v10r0p5-fssc-20150518-x86_64-unknown-linux-gnu-libc2.12A.tar.gz](http://fermi.gsfc.nasa.gov/ssc/data/analysis/software/tar/ScienceTools-v10r0p5-fssc-20150518-x86_64-unknown-linux-gnu-libc2.12A.tar.gz)
 
-- Install Science Tools v10-00-05 (latest FSSC version compatible with Pass 8 data).
-- Install pip.
-- Install fermipy and its python dependencies.
+*OSX*: [ScienceTools-v10r0p5-fssc-patch-20150518-x86_64-apple-darwin14.4.0-without-root.tar.gz](http://fermi.gsfc.nasa.gov/ssc/data/analysis/software/tar/ScienceTools-v10r0p5-fssc-patch-20150518-x86_64-apple-darwin14.4.0-without-root.tar.gz)
 
-Note that the fermipy and the Fermi STs can only be used with the
-python installation that comes packaged with the STs.
+Then follow the fermipy installation instructions on this [page](http://fermipy.readthedocs.org/en/latest/install.html).  Note that fermipy and the Fermi STs can only be used with the python distribution that comes packaged with the STs and cannot be used with an existing python distribution (e.g. anaconda python).
 
-If you have fermipy and the STs installed you should be able to run
-the notebooks in the tutorial directory by launching an ipython
-notebook session.
+As part of the installation process you will clone the fermipy git repository which contains the notebooks for this tutorial.  You can launch any of the notebooks by going to the notebooks directory and executing `ipython notebook` followed by the notebook name:
+
+```bash
+cd notebooks # From root directory of fermipy git repo
+ipython notebook PG\ 1553+113.ipynb
+```
+
+It is recommended to begin first with the PG1553 notebook.
 
 ## Agenda
 
