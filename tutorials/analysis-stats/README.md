@@ -1,6 +1,6 @@
 # Tutorial - Statistics for gamma-ray astronomy
 
-* Presenter: [Michael Schmelling](michael-mpik) and [Christoph Deil](https://github.com/cdeil)
+* Presenter: [Michael Schmelling](michael-mpik)
 * Duration: 90 min
 * Time: Tuesday, 14:00 - 15:30
 * Location: Central seminar room
@@ -39,3 +39,7 @@ Open up the  [Tutorial.ipynb](https://github.com/gammapy/PyGamma15/blob/gh-pages
 A full solution is given in [TutorialSolution.ipynb](https://github.com/gammapy/PyGamma15/blob/gh-pages/tutorials/analysis-stats/TutorialSolution.ipynb).
 This was handed out after the tutorial.
 If you're reviewing this at a later time, suggest you try implementing this yourself and not just look at the solution!
+
+While preparing this tutorial we discussed several options what to use as an example.
+We didn't flesh this out, but one idea was this [spectrum_chi2](https://github.com/gammapy/PyGamma15/blob/gh-pages/tutorials/analysis-stats/spectrum_chi2.ipynb)
+example, which we keep here in case it's useful as extra material or for future tutorials.
